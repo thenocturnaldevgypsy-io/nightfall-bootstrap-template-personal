@@ -1,0 +1,17 @@
+# Allow all search engines to crawl the entire website
+User-agent: *
+Disallow:
+
+# Disallow access to certain sensitive or unimportant pages
+Disallow: /admin/
+Disallow: /login/
+Disallow: /register/
+Disallow: /cgi-bin/
+
+# Prevent indexing of JavaScript, CSS, and other assets that don’t need to be indexed
+Disallow: /assets/js/
+Disallow: /assets/css/
+Disallow: /assets/vendor/
+
+# Link to the sitemap (if applicable)
+Sitemap: https://yourwebsite.com/sitemap.xml
