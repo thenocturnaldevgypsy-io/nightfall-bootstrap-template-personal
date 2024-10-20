@@ -1,0 +1,903 @@
+/* ========================================================
+* Template: NightFall - Free Porfolio / Personal Website Theme build with Bootstrap 5.3.3 by TheNocturnalDevGypsy
+* Version and Updated: Version 1.2, Oct 13 2024 with Bootstrap v5.3.3
+* Author: github.com/TheNocturnalDevGypsy [ Abegail Baustista Torrendon ]
+* License: MIT License - https://github.com/thenocturnaldevgypsy/nightfall-bootstrap-template-developer-portfolio/blob/master/LICENSE
+======================================================== */
+
+/*--------------------------------------------------------------
+# General - Start
+--------------------------------------------------------------*/
+body {
+   font-family: 'Ubuntu', sans-serif;
+   background-color: #d1f1ff;
+   margin: 0;
+   padding-top: 50px; /* Increase this to make more space for the fixed navbar */
+   letter-spacing: 1px; /* Add letter spacing */
+}
+/*--------------------------------------------------------------
+# General - End
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Header and Navigation Menu - Start
+--------------------------------------------------------------*/
+.navbar {
+   background-color: #270065 !important; /* Updated background color */
+   padding: 1rem 1.5rem;
+   position: fixed; /* Fix the navbar to the top */
+   width: 100%; /* Ensure it spans the entire width */
+   top: 0; /* Stick it to the very top of the page */
+   z-index: 1030; /* Higher z-index to ensure it stays on top */
+}
+
+.navbar-brand {
+   display: flex;
+   align-items: center;
+}
+
+.navbar-brand img {
+   max-height: 50px; /* Ensures logo image height */
+}
+
+.navbar-brand h1 {
+   font-size: 1.5rem;
+   margin: 0 0 0 10px;
+   color: #d1f1ff;
+   font-weight: 700;
+}
+
+.navbar-nav .nav-link {
+   color: #d6cad8;
+   font-weight: 500;
+   padding: 5px; /* This handles vertical spacing */
+   padding-top: 10px;
+   margin: 0 0.7rem; /* This adds horizontal spacing between the links */
+   transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+.navbar-nav .nav-link:last-child {
+   margin-right: 0; /* Remove margin from the last link */
+}
+
+.navbar-nav .nav-link:hover {
+   color: #d1f1ff; /* Change color on hover */
+}
+
+.navbar-toggler {
+   border: none; /* Remove border */
+}
+
+/* Add space above the first nav link in mobile view */
+@media (max-width: 768px) {
+   .navbar-nav .nav-link:first-child {
+      padding-top: 1.5rem; /* Adjust this value as needed */
+   }
+}
+/*--------------------------------------------------------------
+# Header and Navigation Menu - End
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Home Section - Start
+--------------------------------------------------------------*/
+#home {
+   min-height: 100vh; /* Make the home section take up full viewport height */
+   background-color: #d1f1ff; /* Background color for the section */
+   color: #846589; /* Text color */
+   padding-top: 3rem; /* Top padding for spacing */
+   padding-bottom: 3rem; /* Bottom padding for spacing */
+   text-align: left; /* Align text to the left */
+}
+
+#home h1 {
+   font-size: 2.5rem; /* Adjusted font size for better emphasis */
+   font-weight: 700; /* Bold text for the heading */
+   margin-bottom: 1rem; /* Space below the heading */
+}
+
+/* Adjust the alignment and padding for paragraphs in the home section */
+#home .aligned-text {
+   font-size: 18px; /* Slightly larger font size for readability */
+   line-height: 1.5; /* Adjust line spacing for better text readability */
+   margin-top: 0; /* Remove top margin to align with h1 */
+   padding-left: 0; /* Remove left padding */
+   text-align: left; /* Ensure text is left-aligned for larger screens */
+}
+
+/* Responsive adjustments for mobile view */
+@media (max-width: 768px) {
+   #home {
+      text-align: center; /* Center text and image for smaller screens */
+   }
+
+   #home .aligned-text {
+      text-align: center; /* Center align text on mobile */
+      padding-left: 0; /* Ensure no left padding on mobile */
+   }
+
+   #home img {
+      width: 250px; /* Smaller size on mobile */
+      height: 250px; /* Maintain the aspect ratio */
+   }
+}
+
+#home img {
+   width: 350px; /* Set explicit width */
+   height: 350px; /* Set explicit height */
+   object-fit: cover; /* Ensures the image covers the area without distorting */
+   border-radius: 50%; /* Rounded image */
+   margin-bottom: 2rem; /* Spacing below the image */
+}
+
+.highlight-nightfall {
+   color: #543980; /* Custom color for the word 'Nightfall' */
+   border-right: 3px solid #543980; /* Cursor effect */
+   white-space: nowrap; /* Prevent text from wrapping */
+   overflow: hidden; /* Hide the overflow */
+}
+
+.keyword {
+   display: none; /* Hide all keywords initially */
+}
+
+.social-icons {
+   display: flex; /* Use flex to arrange icons in a row */
+   align-items: center; /* Center icons vertically */
+   margin-top: 1rem; /* Add some space above the icons */
+   padding-left: 0; /* Remove left padding */
+}
+
+.social-icons a {
+   display: flex; /* Use flex to center the icon */
+   justify-content: center; /* Center the icon */
+   align-items: center; /* Center the icon */
+   width: 40px; /* Set a fixed width for the icons */
+   height: 40px; /* Set a fixed height for the icons */
+   margin: 0 0.5rem; /* Add horizontal spacing between icons */
+   border-radius: 50%; /* Make the icons rounded */
+   background-color: #270065; /* Background color for the icon circles */
+   color: #d1f1ff; /* Icon color */
+   text-decoration: none; /* Remove underline */
+   transition: background-color 0.3s; /* Smooth transition for hover effect */
+   font-size: 17px; /* Adjust icon size */
+}
+
+.social-icons a:first-child {
+   margin-left: 0; /* Remove left margin for the first icon */
+}
+
+.social-icons a:hover {
+   background-color: #3d009e; /* Change background color on hover */
+   color: #d1f1ff; /* Keep icon color on hover */
+}
+
+@media (max-width: 768px) {
+   .social-icons {
+      justify-content: center; /* Center icons on smaller screens */
+   }
+}
+/*--------------------------------------------------------------
+# Home Section - End
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# About - Start
+--------------------------------------------------------------*/
+#about {
+   background-color: #846589; /* Background color for About section */
+   color: #d1f1ff; /* Text color for About section */
+}
+
+#about .row {
+   height: 100%; /* Ensure the row takes up full height */
+}
+
+#about .col-md-4 {
+   display: flex; /* Make this column a flex container */
+   align-items: flex-start; /* Align items at the top */
+   justify-content: center; /* Center items horizontally */
+}
+
+#about img {
+   width: 80%; /* Make image responsive */
+   object-fit: cover; /* Maintain aspect ratio without distortion */
+   margin-bottom: 1rem; /* Add bottom margin for spacing */
+   border-radius: 5px; /* Optional: Add rounded corners */
+}
+
+/* First Row: Introduction // Start */
+/* Styling for the About Section Title */
+.about-title {
+   color: #543980; /* Text color */
+   font-size: 30px; /* Adjust size as needed */
+   font-weight: 700; /* Bold text */
+   padding-left: 20px; /* Small padding on the left side */
+   padding-bottom: 16px; /* Padding below the title */
+}
+
+/* Add bottom padding to the top text in the first row */
+#about .row:first-child > p {
+   padding-bottom: 15px; /* Adjust this value as needed */
+}
+
+/* Add top padding for the paragraph in Row 3 */
+#about .row:last-child > p {
+   padding-top: 15px; /* Adjust this value as needed */
+}
+
+/* Custom list styling for the About section */
+.custom-list {
+    list-style: none; /* Remove default bullet points */
+    padding-left: 0; /* Remove default padding */
+}
+
+.custom-list li {
+    margin-bottom: 10px; /* Add spacing between list items */
+}
+
+/* Icon styling */
+.custom-list .icon {
+    color: #543980; /* Set the color of the icons */
+    margin-right: 8px; /* Space between the icon and the text */
+    vertical-align: middle; /* Align icons with text */
+}
+
+/* Remove extra padding and margin from the paragraph and list elements within the About section */
+.first-row p, #about ul {
+   padding-left: 20px; /* Align with the title */
+   margin-left: 0; /* Remove margin */
+}
+
+/* First row padding */
+.first-row {
+   padding-top: 80px; /* Adjust this value as needed */
+}
+
+/* Add right padding for desktop view only */
+@media (min-width: 992px) {
+   .first-row {
+      padding-right: 30px; /* Add right padding for desktop view */
+   }
+}
+
+/* Responsive Padding for Tablet and Mobile */
+@media (max-width: 992px) { /* Adjust for tablet and smaller devices */
+   #about img {
+      margin-bottom: 1.5rem; /* Increase bottom margin for more space */
+   }
+}
+/* First Row: Introduction // End */
+
+/* Second Row: Happy Clients // Start */
+.happy-clients-row {
+   margin-top: 20px; /* Space above the new row */
+   color: #d1f1ff; /* Text color */
+   margin-left: -10px; /* Adjust to counteract column margins */
+   margin-right: -10px; /* Adjust to counteract column margins */
+   padding-bottom: 30px;
+}
+
+.happy-clients-row .col-6 {
+   display: flex; /* Use flexbox for centering */
+   flex-direction: column; /* Arrange children in a column */
+   align-items: center; /* Center horizontally */
+   justify-content: center; /* Center vertically */
+   text-align: center; /* Center align text in each column */
+   background-color: #543980; /* Background color for boxes */
+   border-radius: 5px; /* Optional: Add rounded corners */
+   margin: 10px; /* Space around each box */
+   padding: 20px; /* Padding inside each box */
+}
+
+.happy-clients-row i {
+   font-size: 40px; /* Icon size */
+   color: #0099dd; /* Icon color */
+   margin-bottom: 10px; /* Space below the icon */
+}
+
+.happy-clients-row p {
+   font-size: 15px; /* Adjust size as needed */
+   margin: 0; /* Remove default margin */
+   padding-left: 0; /* Remove left padding */
+}
+
+.happy-clients-row p.stats {
+   font-weight: bold; /* Bold text */
+   font-size: 24px; /* Adjust size as needed */
+   margin: 0; /* Remove default margin */
+   padding-left: 0; /* Remove left padding */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 576px) {
+   .happy-clients-row .col-6 {
+      width: 44%; /* Set width to 80% for mobile view */
+      margin-left: auto; /* Center the box */
+      margin-right: auto; /* Center the box */
+   }
+}
+/* Second Row: Happy Clients // End */
+
+/* Third Row: Skill Bars // Start */
+.skill-bars-section {
+   margin-top: 10px; /* Adjusted top padding */
+}
+
+.skill-heading-row h2 {
+   color: #543980; /* Updated text color */
+   font-size: 30px; /* Updated font size */
+   font-weight: 700; /* Bold text */
+   margin-bottom: 20px; /* Space below heading */
+   text-align: center; /* Center align the heading */
+}
+
+.skill-bars-row {
+   color: #d1f1ff; /* Text color for skill names */
+}
+
+/* Individual Skill Container */
+.skill {
+   margin-bottom: 20px; /* Space below each skill bar */
+}
+
+.skill-info {
+   display: flex;
+   justify-content: space-between; /* Align skill name to the left and percentage to the right */
+   margin-bottom: 10px; /* Reduced space between skill label and bar */
+}
+
+.skill-info p {
+   font-size: 15px; /* Updated font size */
+}
+
+.skill-info .skill-percentage {
+   font-size: 15px; /* Match the font size with the skill name */
+   color: #d1f1ff; /* Same text color */
+}
+
+/* Skill Bar */
+.skill-bar {
+   background-color: #0099dd; /* Unused portion of the bar */
+   border-radius: 5px; /* Reduced rounded corners */
+   overflow: hidden; /* Ensures the filled bar stays inside */
+   height: 15px; /* Reduced height for a thinner bar */
+   position: relative;
+}
+
+.skill-level {
+   background-color: #543980; /* Updated color for the filled portion */
+   height: 100%; /* Fill the entire height */
+   width: 0%; /* Initial width set to 0 for animation */
+   transition: width 2s ease-in-out; /* Animation duration */
+   border-radius: 5px; /* Reduced rounded corners */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+   .skill-heading-row h2 {
+      font-size: 2rem; /* Adjust the heading size for smaller screens */
+   }
+   
+   .skill-bars-row {
+      text-align: center; /* Center align the skills on smaller screens */
+   }
+}
+
+@media (max-width: 576px) {
+   .skill-bars-row .col-md-6 {
+      margin-bottom: 20px; /* Add margin between the columns */
+   }
+}
+/* Third Row: Skill Bars // End */
+
+/* Fourth Row: Interests // Start */
+.interests-section {
+   margin-top: 30px;
+}
+
+/* Interests Heading */
+.interests-section h2 {
+   color: #543980; /* Text color */
+   font-size: 30px; /* Font size */
+   font-weight: 700; /* Bold text */
+   margin-bottom: 20px; /* Space below the heading */
+   text-align: center; /* Center align the heading */
+}
+
+.interest-box {
+   display: flex;
+   align-items: center;
+   padding: 10px;
+   background-color: #543980;
+   color: #d1f1ff;
+   text-decoration: none;
+   border-radius: 5px;
+   transition: background-color 0.3s ease; /* Smooth background transition */
+   margin-bottom: 20px; /* Add space below each box */
+}
+
+.interest-box i {
+   color: #0099dd;
+   margin-right: 10px; /* Add space between the icon and text */
+}
+
+.interest-box span {
+   font-size: 16px;
+}
+
+/* Hover Effect */
+.interest-box:hover {
+   background-color: #270065;
+   color: #d1f1ff;
+}
+
+.interest-box:hover i {
+   color: #0099dd; /* Keep the icon color on hover */
+}
+
+/* Responsive: Single column on mobile */
+@media (max-width: 768px) {
+   .interest-box {
+      justify-content: flex-start;
+   }
+}
+/* Fourth Row: Interests // End */
+
+/* Fifth Row: Testimonials // Start */
+.testimonials-section {
+   padding: 30px 0; /* Adjust padding as needed */
+   padding-bottom: 50px;
+}
+
+.section-title {
+   color: #543980;
+   font-size: 30px;
+   font-weight: 700;
+   margin-bottom: 40px;
+   text-align: center; /* Center align the title */
+}
+
+.testimonial-box {
+   background-color: #543980; /* Background color for testimonial box */
+   color: #0099dd; /* Text color */
+   border-radius: 10px; /* Rounded corners for the testimonial box */
+   padding: 20px; /* Padding inside the box */
+   margin-bottom: 30px; /* Space between testimonial boxes */
+   display: flex; /* Use flexbox for layout */
+   align-items: flex-start; /* Align items at the top */
+   min-height: 200px; /* Set a minimum height for uniformity, adjust as needed */
+}
+
+.client-img-container {
+   text-align: center; /* Center align the image */
+   margin-right: 10px; /* Space between image and text */
+   width: auto; /* Set width to auto to fit the image */
+}
+
+.client-img {
+   width: 120px !important; /* Set profile image width */
+   height: 120px !important; /* Set profile image height */
+   object-fit: cover; /* Ensure the image fits within the specified dimensions */
+   border-radius: 50%; /* Optional: make image round */
+}
+
+.testimonial-text {
+   display: flex; /* Use flexbox for layout */
+   flex-direction: column; /* Stack text vertically */
+   justify-content: flex-start; /* Align text to the top */
+}
+
+.testimonial-quote {
+   font-style: italic; /* Italicize the testimonial quote */
+   color: #0099dd; /* Set color for the testimonial quote */
+   margin-bottom: 5px; /* Space between testimonial and name */
+}
+
+.client-name,
+.client-company {
+   color: #d1f1ff; /* Text color for name and company */
+   margin: 0; /* Remove default margin */
+}
+
+/* Adjust for responsiveness */
+@media (max-width: 992px) {
+   .testimonial-box {
+       flex-direction: column; /* Stack image and text vertically on smaller screens */
+       align-items: center; /* Center align items */
+       text-align: center; /* Center align text */
+   }
+
+   .client-img-container {
+       margin-right: 0; /* Remove margin on smaller screens */
+       margin-bottom: 15px; /* Add space between image and text */
+   }
+}
+
+/* Fifth Row: Testimonials // End */
+/*--------------------------------------------------------------
+# About - End
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Resume - Start
+--------------------------------------------------------------*/
+.resume-section {
+   background-color: #543980; /* Background color for resume section */
+   color: #d1f1ff; /* Default text color */
+   padding-top: 65px; /* Padding: 65px top, 0 left/right/ottom */
+}
+
+.section-header {
+   color: #0099dd; /* Color for section header */
+   font-size: 30px; /* Adjust size as needed */
+   font-weight: 700; /* Bold font */
+   margin-bottom: 30px; /* Space below the header */
+}
+
+.education-section,
+.experience-section {
+   margin-bottom: 30px; /* Space between sections */
+}
+
+.education-section h3,
+.experience-section h3 {
+   color: #0099dd; /* Color for subsections */
+   font-size: 24px; /* Adjust size as needed */
+   font-weight: 600; /* Semi-bold font */
+   margin-bottom: 10px; /* Space below the subsection header */
+}
+
+/* Timeline Styles */
+.timeline {
+   position: relative; /* Parent element for absolute positioning */
+   padding: 20px 0; /* Add some vertical spacing */
+}
+
+.timeline-item {
+   display: flex; /* Use flexbox for layout */
+   align-items: flex-start; /* Align items at the start */
+   margin-bottom: 40px; /* Space between timeline items */
+   position: relative; /* Enable relative positioning for the items */
+}
+
+/* Keep the timeline-item layout consistent for all screen sizes */
+.timeline-item {
+   flex-direction: row; /* Keep items in a row on mobile as well */
+}
+
+.timeline-icon {
+   flex-shrink: 0; /* Prevent icon from shrinking */
+   width: 40px; /* Fixed width for the icon */
+   height: 40px; /* Fixed height for the icon */
+   background-color: #0099dd; /* Background color for the icon */
+   border-radius: 50%; /* Make the icon round */
+   color: white; /* Icon color */
+   display: flex; /* Center the icon */
+   justify-content: center; /* Center horizontally */
+   align-items: center; /* Center vertically */
+   margin-right: 20px; /* Space between icon and content */
+}
+
+.timeline-content {
+   background-color: #846589; /* Background color for the content */
+   color: #d1f1ff; /* Text color */
+   padding: 20px; /* Padding for content */
+   border-radius: 10px; /* Rounded corners */
+   position: relative; /* Position for pseudo-elements */
+}
+
+.timeline-content h4 {
+   margin: 0 0 5px; /* Space below the heading */
+   color: #d1f1ff; /* Color for the heading */
+}
+
+.timeline-content span {
+   display: block; /* Span on a new line */
+   font-weight: bold; /* Bold font for date */
+   margin-bottom: 10px; /* Space below the date */
+}
+
+.institution {
+   font-size: 14px; /* Smaller font size for institution details */
+   color: #d1f1ff; /* Match the color of the text */
+   margin-bottom: 10px; /* Space below the institution details */
+}
+
+/* Optional: Add styles for the timeline line */
+.timeline-item::before {
+   content: ""; /* Create a visual line */
+   position: absolute;
+   left: 18px; /* Position the line */
+   top: 0;
+   bottom: 0; /* Stretch to the bottom of the item */
+   width: 2px; /* Line thickness */
+   background-color: #0099dd; /* Line color */
+   z-index: -1; /* Send line behind the content */
+}
+
+/* Adjust for responsiveness */
+@media (max-width: 768px) {
+   .section-header {
+       font-size: 24px; /* Smaller font size for mobile */
+   }
+
+   .education-section h3,
+   .experience-section h3 {
+       font-size: 20px; /* Smaller subsection font size for mobile */
+   }
+
+   /* Keep items in a row on mobile */
+   .timeline-item {
+       flex-direction: row; /* Maintain row layout for mobile */
+   }
+}
+/*--------------------------------------------------------------
+# Resume - End
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Portfolio Section - Start
+--------------------------------------------------------------*/
+.portfolio-section {
+   padding: 80px 0;
+   background-color: #d1f1ff;
+   color: #333;
+}
+
+.portfolio-section h2 {
+   color: #543980; /* Text color */
+   font-size: 30px; /* Font size */
+   font-weight: 700; /* Bold text */
+   margin-bottom: 35px; /* Space below the heading */
+   text-align: center; /* Center align the heading */
+}
+
+.portfolio-item {
+   position: relative;
+   margin-bottom: 40px;
+   transition: transform 0.3s ease;
+}
+
+.portfolio-item:hover {
+   transform: scale(1.05);
+}
+
+.portfolio-item img {
+   width: 100%;
+   height: auto;
+   object-fit: cover;
+   border-radius: 5px;
+}
+
+.portfolio-info {
+   text-align: center;
+   margin-top: 15px;
+}
+
+.portfolio-info h4 {
+   font-size: 18px;
+   font-weight: 600;
+}
+
+.portfolio-info .badge {
+   margin-right: 5px;
+   font-size: 12px;
+}
+
+/*--------------------------------------------------------------
+# Portfolio Section - End
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Services Section - Start
+--------------------------------------------------------------*/
+#services {
+   background-color: #846589; /* Background color for the section */
+   padding: 50px 0; /* Add padding for spacing */
+}
+
+#services h2 {
+   color: #543980; /* Header text color */
+   font-size: 30px; /* Font size */
+   font-weight: 700; /* Bold text */
+   text-align: center; /* Center the header */
+   margin-bottom: 40px; /* Space between header and services */
+}
+
+.service-box {
+   background-color: #543980; /* Background color for each service box */
+   padding: 20px; /* Add padding inside each box */
+   border-radius: 10px; /* Rounded corners for the service boxes */
+   margin: 0 15px 30px 15px; /* Add space between the boxes */
+   text-align: center; /* Center-align text in service boxes */
+}
+
+.service-box i {
+   font-size: 40px; /* Icon size */
+   color: #0099dd; /* Icon color */
+   margin-bottom: 10px; /* Space between icon and title */
+}
+
+.service-box h4 {
+   color: #d1f1ff; /* Service name color */
+   font-size: 20px; /* Adjust font size for service title */
+   font-weight: 600; /* Slightly bold for emphasis */
+   margin-bottom: 10px; /* Space between title and text */
+}
+
+.service-box p {
+   color: #d1f1ff; /* Text color */
+   font-size: 16px; /* Adjust font size for service description */
+}
+
+/* For responsive layout on smaller devices */
+@media (max-width: 768px) {
+   .service-box {
+       margin-bottom: 30px; /* Ensure gap between boxes on small screens */
+   }
+}
+/*--------------------------------------------------------------
+# Services Section - End
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Contact Section - Start
+--------------------------------------------------------------*/
+#contact {
+   background-color: #543980; /* Background color for the section */
+   padding: 60px 0; /* Add some padding */
+   display: flex; /* Use flexbox */
+   justify-content: center; /* Center the contact boxes */
+   flex-wrap: wrap; /* Allow wrapping of boxes */
+}
+
+#contact h2 {
+   color: #0099dd; /* Header text color */
+   font-size: 30px;
+   font-weight: 700;
+   margin-bottom: 2rem;
+   text-align: center; /* Center the heading */
+}
+
+/* Contact Information Boxes */
+.contact-box {
+   background-color: #846589; /* Box background color */
+   padding: 20px;
+   margin: 15px; /* Add spacing around boxes */
+   border-radius: 8px; /* Rounded corners */
+   flex: 1 1 300px; /* Flex-grow, flex-shrink, and base width */
+   max-width: 400px; /* Limit width to avoid stretching too much */
+   box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+/* Responsive Layout for Contact Boxes */
+@media (max-width: 768px) {
+   .contact-box {
+       width: calc(100% - 20px); /* Leave space for margins */
+   }
+}
+
+.contact-box .row {
+   display: flex;
+   align-items: center;
+}
+
+.contact-box .col-3 {
+   text-align: center; /* Center icon */
+}
+
+.contact-box .col-9 {
+   text-align: left; /* Align text to the left */
+}
+
+.contact-box i {
+   font-size: 60px; /* Larger icon for contact boxes */
+   color: #0099dd;
+}
+
+.contact-box h4 {
+   color: #d1f1ff;
+   margin-bottom: 0.5rem; /* Space between heading and content */
+}
+
+.contact-box p {
+   color: #d1f1ff;
+   margin: 0; /* Remove margin from the paragraph */
+}
+
+/* Social Media Box - Adjustments */
+.social-media-box .row {
+   display: flex;
+   align-items: center;
+}
+
+.social-media-box .col-3 {
+   text-align: center; /* Center icon */
+}
+
+.social-media-box .col-9 {
+   text-align: left; /* Align text to the left */
+}
+
+.social-media-box h4 {
+   color: #d1f1ff;
+   margin-bottom: 0.5rem; /* Space between heading and icons */
+}
+
+/* Remove background circles from social media icons */
+.social-icons a {
+   color: #d1f1ff; /* Color for social media icons */
+   margin-right: 10px; /* Space between icons */
+   font-size: 1rem; /* Default icon size */
+   text-decoration: none;
+   transition: color 0.3s; /* Smooth color transition */
+   display: inline-block; /* Ensure the icons are treated as blocks for sizing */
+   background: none; /* Remove any background */
+   border: none; /* Remove border if present */
+   padding: 0; /* Remove padding */
+   border-radius: 0; /* Ensure no border radius */
+}
+
+/* Ensure no background on hover */
+.social-icons a:hover {
+   color: #d1f1ff; /* Keep color the same on hover */
+   background: none; /* Ensure no background on hover */
+}
+
+/* Remove background for icon elements */
+.social-icons i {
+   font-size: 24px; /* Adjust to desired size */
+   background: none; /* Ensure no background for icons */
+   border: none; /* Ensure no border for icons */
+   border-radius: 0; /* Ensure no border radius for icons */
+}
+
+/*--------------------------------------------------------------
+# Contact Section - End
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Footer Section - Start
+--------------------------------------------------------------*/
+.footer-section {
+   background-color: #270065 !important; /* Updated background color */
+   color: #d1f1ff; /* Text color */
+   padding: 40px 0; /* Increased padding for top and bottom */
+   left: 0; /* Align to the left */
+   right: 0; /* Align to the right */
+   width: 100%; /* Full width */
+   text-align: center; /* Centered text */
+   z-index: 1000; /* Ensure it's above other content */
+}
+
+.footer-section p {
+   margin: 0; /* Remove default margin */
+   font-size: 16px; /* Font size */
+}
+
+/*--------------------------------------------------------------
+# Footer Section - End
+--------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------
+# Section - Start
+--------------------------------------------------------------*/
+
+/* Section styles */
+
+/*--------------------------------------------------------------
+# Section - End
+--------------------------------------------------------------*/
