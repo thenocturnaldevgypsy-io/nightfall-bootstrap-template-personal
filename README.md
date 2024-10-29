@@ -26,7 +26,7 @@
 
 ![SUBSECTION Live URLs](https://custom-icon-badges.demolab.com/badge/-Live%20URLs-24292e?logo=globe&logoColor=white&labelColor=2471AE)
 
-- Thru : https://nightfall-eight.vercel.app/
+- Thru Vercel : https://nightfall-eight.vercel.app/
 
 ## ![SECTION Build With ❤️ and ...](https://custom-icon-badges.demolab.com/badge/-Build%20With%20❤️%20and%20...-24292e?logo=tools&logoColor=white&labelColor=00416a)
 
@@ -120,7 +120,7 @@ Below is the latest updates, go to the [Changelog Listing](CHANGELOG.md) for the
 
 | Version | Date | Commit | Type | Description |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| 1.2.2 | 20.10.2024 | [a1d83bd](https://github.com/thenocturnaldevgypsy-io/nightfall-bootstrap-template-personal/commit/a1d83bdcec79df4879ae65dd5b770ddd0889c0ba) for [PR 2](https://github.com/thenocturnaldevgypsy-io/nightfall-bootstrap-template-personal/pull/2), [90b7784](https://github.com/thenocturnaldevgypsy-io/nightfall-bootstrap-template-personal/commit/90b7784409d954c01fe0ee237176f08257150786) for [PR 4](https://github.com/thenocturnaldevgypsy-io/nightfall-bootstrap-template-personal/pull/4) | feat | - Old GitHub account [@thenocturnaldevgypsy](https://github.com/thenocturnaldevgypsy) got flagged for no reason given, recreating the repo to the new account [@thenocturnaldevgypsy-io](https://github.com/thenocturnaldevgypsy-io) [[PR 2](https://github.com/thenocturnaldevgypsy-io/nightfall-bootstrap-template-personal/pull/2)]<br>- Redeployed at Vercel, Live URL: https://nightfall-eight.vercel.app/, updated documentation [[PR 4](https://github.com/thenocturnaldevgypsy-io/nightfall-bootstrap-template-personal/pull/4)]<br>- For more info for the whole migration, see GitHub Project: https://github.com/users/thenocturnaldevgypsy-io/projects/1/views/1 |
+| 1.2.2 | 20.10.2024 | [a1d83bd](https://github.com/thenocturnaldevgypsy-io/nightfall-bootstrap-template-personal/commit/a1d83bdcec79df4879ae65dd5b770ddd0889c0ba) for [PR 2](https://github.com/thenocturnaldevgypsy-io/nightfall-bootstrap-template-personal/pull/2), [90b7784](https://github.com/thenocturnaldevgypsy-io/nightfall-bootstrap-template-personal/commit/90b7784409d954c01fe0ee237176f08257150786) for [PR 4](https://github.com/thenocturnaldevgypsy-io/nightfall-bootstrap-template-personal/pull/4) | feat | - Old GitHub account [@thenocturnaldevgypsy](https://github.com/thenocturnaldevgypsy) got flagged for no reason given, recreating the repo to the new account [@thenocturnaldevgypsy-io](https://github.com/thenocturnaldevgypsy-io) [[PR 2](https://github.com/thenocturnaldevgypsy-io/nightfall-bootstrap-template-personal/pull/2)]<br>- Redeployed at Vercel, Live URL: https://nightfall-eight.vercel.app/, updated documentation [[PR 4](https://github.com/thenocturnaldevgypsy-io/nightfall-bootstrap-template-personal/pull/4)]<br>- Details of the whole migration, see GitHub Project: [Migrating @thenocturnaldevgypsy to @thenocturnaldevgypsy-io](https://github.com/users/thenocturnaldevgypsy-io/projects/1/views/1) |
 
 ## ![SECTION Contribute](https://custom-icon-badges.demolab.com/badge/-Contribute-24292e?logo=code-of-conduct&logoColor=white&labelColor=00416a)
 Want to contribute? Great! Contributions welcome, but please read the [contribution guidelines](CONTRIBUTING.md) first on how to contribute to the project, including pull request guidelines and community contributions.
@@ -133,7 +133,7 @@ If you'd like to use this repo for your own project, I would like to ask a favor
 - Please be mindful of the [LICENSE](LICENSE.md) applicable in this Repo (see the next section below)
 
 ## ![SECTION License](https://custom-icon-badges.demolab.com/badge/-License-24292e?logo=file-badge&logoColor=white&labelColor=00416a)
-Distributed under the MIT License by [Abegail Torrendon / thenocturnaldevgypsy](https://github.com/thenocturnaldevgypsy-io).
+Distributed under the MIT License by [Abegail Torrendon / TheNocturnalDevGypsy](https://github.com/thenocturnaldevgypsy-io).
 - You can freely modify and reuse.
 - The original [LICENSE](LICENSE.md) must be included with copies of this software.
 - Please link back (if you can fork, the better) to this repo. 

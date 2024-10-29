@@ -39,4 +39,4 @@ Hi! I appreciate your interest in contributing. 😊 This guide will help you ge
    - `enhancement` : new feature or request
    
    Do your best to fill out each field, preferably in as much detail as possible.
-- Assign the ticket to me ([Abegail Torrendon / thenocturnaldevgypsy](https://github.com/thenocturnaldevgypsy-io)) so I can review and I'll work on it.
+- Assign the ticket to me ([Abegail Torrendon / TheNocturnalDevGypsy](https://github.com/thenocturnaldevgypsy-io)) so I can review and I'll work on it.
