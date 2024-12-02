@@ -4,7 +4,7 @@
 <p align="center"><strong>You like the Repo? Don't forget to 🌟, 👁️, 🔱 and ❤️!</strong></p>
 <p align="center">
    <img src="https://img.shields.io/badge/Purpose-PLAYGROUND-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Purpose-PLAYGROUND">
-   <img src="https://img.shields.io/badge/Version-1.2.2-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Version 1.2.2">
+   <img src="https://img.shields.io/badge/Version-2.0.0-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Version 2.0.0">
    <img src="https://img.shields.io/badge/Lang-HTML%20|%20CSS%20|%20JavaScript-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Lang-HTML|CSS|JavaScript">
    <img src="https://img.shields.io/badge/Framework-Bootstrap-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Framework-Bootstrap">
    <img src="https://img.shields.io/badge/Database-None-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Database-None">
@@ -23,11 +23,11 @@
 ![SUBSECTION Features](https://custom-icon-badges.demolab.com/badge/-Features-24292e?logo=star&logoColor=white&labelColor=00416a)
 
 - Added all the necessary SEO Required Tags and Files to make it SEO Ready.
-- Available in One-Page
+- Available in Muti-Pages Template: Home, About, Education, Experiences, Services and Contact
 
 ![SUBSECTION Live URLs](https://custom-icon-badges.demolab.com/badge/-Live%20URLs-24292e?logo=globe&logoColor=white&labelColor=00416a)
 
-- Thru Vercel : https://nightfall-eight.vercel.app/
+- Thru ... : https://
 
 ## ![SECTION Build With ❤️ and ...](https://custom-icon-badges.demolab.com/badge/-Build%20With%20❤️%20and%20...-2471AE?logo=tools&logoColor=white&labelColor=2471AE)
 
@@ -53,11 +53,19 @@ PHP version: 8.3.1
 Database client version: libmysql - mysqlnd 8.3.1 
 phpMyAdmin Version information: 5.1.2
 ```
-**Framework and Tools**
+**Frameworks, Libraries and Tools**
 ```
-- CSS Framework: Bootstrap 5.3.3
-- Icons: Bootstrap Icons 1.11.3
-- Font: Ubuntu from Google Fonts
+- Bootstrap 5.3.3 https://github.com/twbs/bootstrap
+- Google Font: Baloo 2 https://fonts.google.com/specimen/Baloo+2?query=baloo
+- Bootstrap Icons https://github.com/twbs/icons
+- FontAwesome 6 Icons (Free) https://github.com/FortAwesome/Font-Awesome
+- AOS (Animate on scroll) https://github.com/michalsnik/aos
+- imagesLoaded https://github.com/desandro/imagesloaded
+- Isotope https://github.com/metafizzy/isotope
+- purecounterjs https://github.com/srexi/purecounterjs
+- Swiper.js https://github.com/nolimits4web/swiper
+- Typed.js https://github.com/mattboldt/typed.js
+- Waypoint.js (No Framework) https://github.com/imakewebthings/waypoints
 ```
 **Image Sources Credits**
 - [Coding, Computer, Hacker image. Free for use - Assets by Pexels](https://pixabay.com/photos/coding-computer-hacker-hacking-1841550/) : `assets/images/hero-bg.jpg`
@@ -74,49 +82,77 @@ At the moment, the repository contains the following structure, where:
 ```
 project-root/
 ├─ assets/              # assets folder for images, css, js and other libraries
-│  ├─ img/              # main directory for storing image files
-│  │  └─ favicons/      # favicons for the template
+│  ├─ images/           # main directory for storing image files
+│  │  ├─ favicons/      # favicons for the website
+│  │  ├─ portfolio/     # portfolio mockup images
+│  │  └─ testimonials/  # testimonial thumbnails
 │  ├─ css/              # main directory for storing css files
 │  ├─ js/               # main directory for storing js files
-│  └─ vendor/           # main directory for the libraries used from vendors 
+│  └─ library/          # main directory for the framework and libraries used
 ├─ md_assets/           # assets folder for markdown files (documentation)
 ├─ .gitignore           # files ignored by Git
-├─ CONTRIBUTING.md      # contribution protocol documentation
 ├─ CHANGELOG.md         # project changelog documentation
-├─ README.md            # project documentation
-└─ LICENSE              # license file
+├─ LICENSE              # license file
+└─ README.md            # project documentation
 ```
 | Description | File/s |
 | ------------- | ------------- |
 | Home Page of the template | `index.html` |
-| Main CSS of the one page template | `assets/css/nightfall.op.styles.css` |
-| Main JS of the one page template | `assets/js/nightfall.op.core.js` |
+| Main CSS of the template | `assets/css/main.styles.css` |
+| Main JS of the template | `assets/js/main.core.js` |
 
-<!-- ## ![SECTION Contents and Breakdown](https://custom-icon-badges.demolab.com/badge/-Contents%20and%20Breakdown-24292e?logo=book&logoColor=white&labelColor=00416a)
-In process
- - ✅ Under ...
-- 🚧 Under ...
+## ![SECTION Sitemap, Contents and Breakdown](https://custom-icon-badges.demolab.com/badge/-Sitemap,%20Contents%20and%20Breakdown-2471AE?logo=map&logoSource=feather&logoColor=white&labelColor=2471AE) 
 
-| Theme | Number of Variants | Description |
-| ------------- | ------------- | ------------- |
-| [xxx](https://github.com/thenocturnaldevgypsy) | XXX | What was done | 
+```
+Home/
+  ├─ Short Introduction/
+  ├─ Copyrights and Notes/
+  └─ Social Network Details/ 
 
-## ![SECTION Sitemap](https://custom-icon-badges.demolab.com/badge/-Sitemap-24292e?logo=map&logoSource=feather&logoColor=white&labelColor=00416a)
-In process
- ```
-Home/                         #
-├── Page 1.1/                 # 
-│   ├── Page 1.1.1/           # 
-│   │   └── Page 1.1.1.1/     # 
-│   ├── Page 1.1.2/           #
-│   ├── Page 1.1.3/           #
-│   └── Page 1.1.4/           #
-About Us                      #
-├── Page 2.1/                 # 
-├── Page 2.2/                 # 
-├── Page 2.3/                 # 
-└── Page 2.4/                 # 
-``` -->
+About/
+  ├─ Introduction/
+  ├─ Counters/
+  ├─ My Skills, Domain Knowledge/
+  │  ├─ Skill Bars/
+  │  └─ Tech Stack/
+  └─ Testimonials/
+
+Education/
+  ├─ Formal Education/
+  ├─ Certificates, Licenses/
+  └─ Online Learning and Code Challenges/
+ 
+Experience
+  ├─ Recent/
+  └─ Previous/
+   
+Portfolio/   
+  └─ Portfolio Details/    
+  
+Services/  
+  └─ Service Details/
+
+Contact/
+
+Footer/
+  ├─ Copyrights and Notes/
+  └─ Social Network Details/
+```
+- **Home**: Simple splash screen of the website, Copyrights, Notes and Social Network Details
+   - HTML files: `index.html`
+- **About**: About the site owner
+   - HTML files: `about.html`
+- **Education**: Records of formal education to professional certifications and online courses taken
+   - HTML files: `education.html`
+- **Experience**: Records of recent and previous experiences
+   - HTML files: `experience.html`
+- **Portfolio**: Portfolio details
+   - HTML files: `portfolio.html`, `portfolio-details.html`
+- **Services**: Services offered
+   - HTML files: `services.html`
+- **Contact**: Hiring, shops and contact details
+   - HTML files: `contact.html`
+- **Footer**: Copyrights, Notes and Social Network Details. (except Home (`index.html`))
 
 ## ![SECTION Roadmap](https://custom-icon-badges.demolab.com/badge/-Roadmap-2471AE?logo=tasklist&logoColor=white&labelColor=2471AE)
 See the [open issues](https://github.com/thenocturnaldevgypsy-io/nightfall-bootstrap-template-developer-portfolio/issues) and the [project](https://github.com/thenocturnaldevgypsy-io/nightfall-bootstrap-template-developer-portfolio/projects?query=is%3Aopen)'s Backlog  for the list of proposed features (and known issues).
@@ -127,7 +163,7 @@ Below is the latest updates, go to the [Changelog Listing](CHANGELOG.md) for the
 
 | Version | Date | Commit | Type | Description |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| 1.2.2 | 20.10.2024 | [a1d83bd](https://github.com/thenocturnaldevgypsy-io/nightfall-bootstrap-template-personal/commit/a1d83bdcec79df4879ae65dd5b770ddd0889c0ba) for [PR 2](https://github.com/thenocturnaldevgypsy-io/nightfall-bootstrap-template-personal/pull/2), [90b7784](https://github.com/thenocturnaldevgypsy-io/nightfall-bootstrap-template-personal/commit/90b7784409d954c01fe0ee237176f08257150786) for [PR 4](https://github.com/thenocturnaldevgypsy-io/nightfall-bootstrap-template-personal/pull/4) | feat | - Old GitHub account [@thenocturnaldevgypsy](https://github.com/thenocturnaldevgypsy) got flagged for no reason given, recreating the repo to the new account [@thenocturnaldevgypsy-io](https://github.com/thenocturnaldevgypsy-io) [[PR 2](https://github.com/thenocturnaldevgypsy-io/nightfall-bootstrap-template-personal/pull/2)]<br>- Redeployed at Vercel, Live URL: https://nightfall-eight.vercel.app/, updated documentation [[PR 4](https://github.com/thenocturnaldevgypsy-io/nightfall-bootstrap-template-personal/pull/4)]<br>- Details of the whole migration, see GitHub Project: [Migrating @thenocturnaldevgypsy to @thenocturnaldevgypsy-io](https://github.com/users/thenocturnaldevgypsy-io/projects/1/views/1) |
+| 2.0.0 | 20.10.2024 | []() for [PR ]() | refactor/perf/chore | - |
 
 ## ![SECTION Contribute](https://custom-icon-badges.demolab.com/badge/-Contribute-2471AE?logo=code-of-conduct&logoColor=white&labelColor=2471AE)
 Want to contribute? Great! Contributions welcome, but please read the [contribution guidelines](CONTRIBUTING.md) first on how to contribute to the project, including pull request guidelines and community contributions.
