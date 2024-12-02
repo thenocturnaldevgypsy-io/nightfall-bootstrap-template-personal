@@ -2,969 +2,183 @@
 <html lang="en">
 
    <head>
-
+      
       <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-      <!-- For SEO Purposes // Start --> 
+      <meta content="width=device-width, initial-scale=1.0" name="viewport">
+      
+      <!-- For SEO Purposes // Start -->
 
          <!-- Google Analytics // Start -->
-            <script async src="https://www.googletagmanager.com/gtag/js?id=GA_TRACKING_ID"></script>
-            <script>
-               window.dataLayer = window.dataLayer || [];
-               function gtag(){dataLayer.push(arguments);}
-               gtag('js', new Date());
-               gtag('config', 'GA_TRACKING_ID');
-            </script>
+         <script async src="https://www.googletagmanager.com/gtag/js?id=GA_TRACKING_ID"></script>
+         <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'GA_TRACKING_ID');
+         </script>
          <!-- Google Analytics // End -->
 
          <!-- Structured Data (JSON-LD) // Start -->
-            <script type="application/ld+json">
-               {
-                  "@context": "https://schema.org",
-                  "@type": "WebSite",
-                  "name": "NightFall: Free Portfolio Website Theme",
-                  "url": "https://yourdomain.com/",
-                  "author": {
-                     "@type": "Person",
-                     "name": "Abegail Baustista Torrendon"
-                  },
-                  "description": "NightFall is a free, responsive Bootstrap 5.3.3 theme perfect for personal portfolios.",
-                  "sameAs": [
-                     "https://github.com/TheNocturnalDevGypsy",
-                     "https://www.linkedin.com/in/your-profile-link",
-                     "https://twitter.com/your-twitter-handle"
-                  ]
-               }
-            </script>
+         <script type="application/ld+json">
+            {
+               "@context": "https://schema.org",
+               "@type": "WebSite",
+               "name": "Nightfall : Free Personal Website Theme built with Bootstrap 5.3.3 by TheNocturnalDevGypsy",
+               "url": "https://github.com/thenocturnaldevgypsy-io/nightfall-bootstrap-template-personal",
+               "author": {
+                  "@type": "Person",
+                  "name": "TheNocturnalDevGypsy [ Abegail Baustista Torrendon ]"
+               },
+               "description": "",
+               "sameAs": [
+                  "https://www.github.com/thenocturnaldevgypsy-io"
+               ]
+            }
+         </script>
          <!-- Structured Data (JSON-LD) // End -->
-
+      
          <!-- For Essential Meta Tags // Start -->
-            <title>NightFall : Free Porfolio / Personal Website Theme build with Bootstrap 5.3.3 by TheNocturnalDevGypsy</title>
-            <meta name="description" content="NightFall is a free portfolio/personal website theme built with Bootstrap 5.3.3 by TheNocturnalDevGypsy. It features a responsive layout for personal portfolios, with modern design elements.">
-            <meta name="keywords" content="portfolio, personal website, Bootstrap theme, responsive website, web development, free Bootstrap template, developer portfolio">
-            <meta name="author" content="TheNocturnalDevGypsy [ Abegail Baustista Torrendon ]">
-            <meta name="robots" content="index, follow">
-            <link rel="canonical" href="https://github.com/thenocturnaldevgypsy/nightfall-bootstrap-template-developer-portfolio">
+         <title>Nightfall : Free Personal Website Theme built with Bootstrap 5.3.3 by TheNocturnalDevGypsy</title>
+         <meta name="description" content="Nightfall : Free Personal Website Theme built with Bootstrap 5.3.3 by TheNocturnalDevGypsy">
+         <meta name="keywords" content="nightfall, thenocturnaldevgypsy, portfolio, personal website, bootstrap theme, responsive website">
+         <meta name="author" content="TheNocturnalDevGypsy [ Abegail Baustista Torrendon ]">
+         <meta name="robots" content="index, follow">
+         <link rel="canonical" href="https://github.com/thenocturnaldevgypsy-io/nightfall-bootstrap-template-personal">
          <!-- For Essential Meta Tags // End -->
-
+      
          <!-- Social Media Meta Tags (Open Graph) // Start -->
-            <meta property="og:title" content="NightFall: Free Portfolio Website Theme">
-            <meta property="og:description" content="NightFall is a free, responsive Bootstrap 5.3.3 theme by TheNocturnalDevGypsy, perfect for personal portfolios.">
-            <meta property="og:image" content="https://yourdomain.com/assets/img/preview-image.png">
-            <meta property="og:url" content="https://yourdomain.com/">
-            <meta property="og:type" content="website">
+         <meta property="og:title" content="Nightfall : Free Personal Website Theme built with Bootstrap 5.3.3 by TheNocturnalDevGypsy">
+         <meta property="og:description" content="Nightfall : Free Personal Website Theme built with Bootstrap 5.3.3 by TheNocturnalDevGypsy">
+         <meta property="og:image" content="https://thenocturnaldevgypsy-io.github.io/assets/images/preview-image.jpg">
+         <meta property="og:url" content="https://github.com/thenocturnaldevgypsy-io/nightfall-bootstrap-template-personal">
+         <meta property="og:type" content="website">
          <!-- Social Media Meta Tags (Open Graph) // End -->
-
+      
          <!-- Twitter Card Meta Tags // Start -->
-            <meta name="twitter:card" content="summary_large_image">
-            <meta name="twitter:title" content="NightFall: Free Portfolio Website Theme">
-            <meta name="twitter:description" content="NightFall is a free, responsive Bootstrap 5.3.3 theme by TheNocturnalDevGypsy.">
-            <meta name="twitter:image" content="https://yourdomain.com/assets/img/preview-image.png">
+         <meta name="twitter:card" content="summary_large_image">
+         <meta name="twitter:title" content="Nightfall : Free Personal Website Theme built with Bootstrap 5.3.3 by TheNocturnalDevGypsy">
+         <meta name="twitter:description" content="Nightfall : Free Personal Website Theme built with Bootstrap 5.3.3 by TheNocturnalDevGypsy">
+         <meta name="twitter:image" content="https://github.com/thenocturnaldevgypsy-io/nightfall-bootstrap-template-personal/tree/master/assets/images/preview-image.jpg">
          <!-- Twitter Card Meta Tags // End -->
 
          <!-- Favicons // Start -->
-            <link rel="apple-touch-icon" href="assets/img/favicons/apple-touch-icon.png" sizes="180x180">
-            <link rel="icon" href="assets/img/favicons/favicon.png" sizes="32x32" type="image/png">
-            <link rel="icon" href="assets/img/favicons/favicon.png" sizes="16x16" type="image/png">
-            <link rel="manifest" href="assets/img/favicons/manifest.json">
-            <link rel="mask-icon" href="assets/img/favicons/safari-pinned-tab.svg" color="#CCDBEC">
-            <link rel="icon" href="assets/img/favicons/favicon.ico">
-            <meta name="theme-color" content="#CCDBEC">
+         <link rel="apple-touch-icon" href="assets/images/favicons/apple-touch-icon.png" sizes="180x180">
+         <link rel="icon" href="assets/images/favicons/favicon.png" sizes="32x32" type="image/png">
+         <link rel="icon" href="assets/images/favicons/favicon.png" sizes="16x16" type="image/png">
+         <link rel="manifest" href="assets/images/favicons/manifest.json">
+         <link rel="mask-icon" href="assets/images/favicons/safari-pinned-tab.svg" color="#70c3ff">
+         <link rel="icon" href="assets/images/favicons/favicon.ico">
+         <meta name="msapplication-TileColor" content="#70c3ff">
+         <meta name="msapplication-TileImage" content="assets/images/favicons/favicon.png">
+         <meta name="theme-color" content="#70c3ff">
          <!-- Favicons // End -->
-      
-         <!-- CDN: Google Fonts // Start -->
-            <link rel="preconnect" href="https://fonts.googleapis.com">
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,600,600i,700,700i..900,900i">
-         <!-- CDN: Google Fonts // End -->
 
+         <!-- CDN: Google Fonts // Start -->
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=REM:wght@400..800&display=swap" rel="stylesheet">
+         <!-- CDN: Google Fonts // End -->
+      
       <!-- For SEO Purposes // End -->
 
-      <!-- Vendor CSS Files // Start -->
-         <link rel="stylesheet" href="assets/vendor/bootstrap-5.3.3-dist/css/bootstrap.css">
-         <link rel="stylesheet" href="assets/vendor/bootstrap-icons-1.11.3/bootstrap-icons.css">
-      <!-- Vendor CSS Files // End -->
-      
+      <!-- Library CSS Files // Start -->
+      <link href="assets/library/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      <link href="assets/library/fontawesome-free/css/all.css" rel="stylesheet">
+      <link href="assets/library/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+      <link href="assets/library/aos/aos.css" rel="stylesheet">
+      <link href="assets/library/swiper/swiper-bundle.min.css" rel="stylesheet">
+      <!-- Library CSS Files // End -->
+
       <!-- Theme CSS Files // Start -->
-         <link rel="stylesheet" href="assets/css/nightfall.op.styles.css">
+      <link rel="stylesheet" href="assets/css/main.styles.css">
       <!-- Theme CSS Files // End -->
 
-      <!-- =======================================================
-      * Template: NightFall - Free Porfolio / Personal Website Theme build with Bootstrap 5.3.3 by TheNocturnalDevGypsy
-      * Version and Updated: Version 1.2, Oct 13 2024 with Bootstrap v5.3.3
-      * Author: github.com/TheNocturnalDevGypsy [ Abegail Baustista Torrendon ]
-      * GitHub Source: https://github.com/thenocturnaldevgypsy/nightfall-bootstrap-template-developer-portfolio
-      * License: MIT License - https://github.com/thenocturnaldevgypsy/nightfall-bootstrap-template-developer-portfolio/blob/master/LICENSE
-      ======================================================== -->
+      <!-- ============================================================================================================================
+      * Version and Updated: Version 2.0.0, Nov 5 2024 with Bootstrap v5.3.3
+      * Author: github.com/TheNocturnalDevGypsy-io [ Abegail Baustista Torrendon ]
+      * GitHub Source: https://github.com/thenocturnaldevgypsy-io/nightfall-bootstrap-template-personal
+      * License: MIT License - https://github.com/thenocturnaldevgypsy-io/nightfall-bootstrap-template-personal/blob/master/LICENSE
+      ============================================================================================================================== -->
 
    </head>
 
-   <body>
+   <body class="index-page">
+
+      <!-- Header and Navigation Menu // Start -->
+      <header id="header" class="header d-flex align-items-center fixed-top">
+         <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+            <!-- Logo and Header Text // Start -->
+            <a href="index.html" class="logo d-flex align-items-center"><img src="assets/images/logo.png" alt=""><h1 class="sitename">Nightfall</h1></a>
+            <!-- Logo and Header Text // End -->
+
+            <!-- Navbar Links // Start -->
+            <nav id="navmenu" class="navmenu">
+               <ul>
+                  <li><a href="index.html" class="active">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="education.html">Education</a></li>
+                  <li><a href="experience.html">Experience</a></li>
+                  <li><a href="portfolio.html">Portfolio</a></li>
+                  <li><a href="services.html">Services</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+               </ul>
+               <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+            </nav>
+            <!-- Navbar Links // End -->
+
+         </div>
+      </header>
+      <!-- Header and Navigation Menu // End -->
 
       <!-- Content // Start -->
+      <main class="main">
 
-         <!-- Header and Navigation Menu // Start -->
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-               <div class="container">
+         <!-- Home > Hero Section // Start -->
+         <section id="hero" class="hero section dark-background">
 
-                  <!-- Logo and Header Text // Start -->
-                     <a class="navbar-brand" href="#home"><img src="assets/img/img-profile.png" alt="Logo" width="50" height="50"><h1>Nightfall</h1></a>
-                  <!-- Logo and Header Text // End -->
-
-                  <!-- Hamburger Menu Button // Start -->
-                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                     </button>
-                  <!-- Hamburger Menu Button // End -->
-
-                  <!-- Navbar Links // Start -->
-                     <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav ms-auto"> <!-- ms-auto aligns the menu to the right -->
-                           <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-                           <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                           <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
-                           <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-                           <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-                           <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                           <li class="nav-item"><a class="nav-link" href="#">As Multipages</a></li>
-                        </ul>
-                     </div>
-                  <!-- Navbar Links // End -->
-
+            <img src="assets/images/hero-bg.jpg" alt="" data-aos="fade-in">
+            <div class="container" data-aos="zoom-out" data-aos-delay="100">
+               <h2>Nightfall</h2>
+               <h3>Free Personal Website Theme built with Bootstrap 5.3.3 by TheNocturnalDevGypsy</h3>
+               <p>I'm  <span class="typed" data-typed-items="Responsive, Bootstrap Powered!, Perfect for Personal Website, Open Source and Free">Open Source and Free</span><span class="typed-cursor typed-cursor--blink"></span></p>
+               <div class="social-links">
+                  <a href="https://www.linkedin.com/in/yourusername/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                  <a href="https://github.com/yourusername" target="_blank"><i class="fa-brands fa-github"></i></a>
+                  <a href="https://x.com/yourusername"><i class="fa-brands fa-x-twitter"></i></a>
+                  <a href="https://www.instagram.com/yourusername/"><i class="fa-brands fa-instagram"></i></a>
                </div>
-            </nav>
-         <!-- Header and Navigation Menu // End -->
-
-         <!-- Home Section // Start -->
-            <section id="home" class="d-flex align-items-center">
-               <div class="container">
-                  <div class="row">
-
-                     <!-- Left Column: Profile Picture (1/3 width) // Start -->
-                        <div class="col-md-4 text-center">
-                           <img src="assets/img/img-profile.png" class="img-fluid rounded-circle" alt="Profile Picture">
-                        </div>
-                     <!-- Left Column: Profile Picture (1/3 width) // End -->
-
-                     <!-- Right Column: Text (2/3 width) // Start -->
-                        <div class="col-md-8 d-flex flex-column justify-content-center">
-                           <h1>I'm <span class="highlight-nightfall">
-                              <span class="keyword">Nightfall</span>
-                              <span class="keyword">using Bootstrap!</span>
-                              <span class="keyword">Responsive ;)</span>
-                              <span class="keyword">Awesome!</span>
-                           </span></h1>
-                           <p class="aligned-text">Free Personal Website Theme built with Bootstrap 5.3.3 by TheNocturnalDevGypsy</p>
-                           <p class="aligned-text">Don't forget to <i class="bi bi-star"></i>, <i class="bi bi-eye"></i> and <i class="bi bi-bezier2"></i> at GitHub, or, maybe <i class="bi bi-heart"></i> by buying me a <i class="bi bi-cup-hot"></i> at Ko-Fi.</p>
-                           <div class="social-icons">
-                              <a href="https://www.linkedin.com" class="rounded-circle"><i class="bi bi-linkedin"></i></a>
-                              <a href="https://www.facebook.com" class="rounded-circle"><i class="bi bi-facebook"></i></a>
-                              <a href="https://www.instagram.com" class="rounded-circle"><i class="bi bi-instagram"></i></a>
-                              <a href="https://twitter.com" class="rounded-circle"><i class="bi bi-twitter"></i></a>
-                              <a href="https://mastodon.social" class="rounded-circle"><i class="bi bi-mastodon"></i></a>
-                              <a href="https://github.com" class="rounded-circle"><i class="bi bi-github"></i></a>
-                           </div>
-                        </div>
-                     <!-- Right Column: Text (2/3 width) // End -->
-
-                  </div>
-               </div>
-            </section>
-         <!-- Home Section // End -->
-
-         <!-- About Section // Start -->
-            <section id="about" class="about-section">
-               <div class="container">
-
-                  <!-- First Row: Introduction // Start -->
-                     <div class="row first-row">
-
-                        <!-- Left Column: Profile Picture // Start -->
-                           <div class="col-md-4 text-left">
-                              <img src="assets/img/img-profile.png" alt="Profile Picture" class="img-fluid"> <!-- Removed inline styles -->
-                           </div>
-                        <!-- Left Column: Profile Picture // End -->
-                        
-                        <!-- Right Column: Text "Learn more about me" // Start -->
-                           <div class="col-md-8 text-left">
-                           
-                              <h2 class="about-title">LEARN MORE ABOUT ME</h2>
-                           
-                              <!-- New Container with 3 Rows // Start -->
-                                 <div class="container">
-                              
-                                    <!-- Row 1: Top Text // Start -->
-                                       <div class="row">
-                                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                    </div>
-                                    <!-- Row 1: Top Text // End -->
-
-                                    <!-- Row 2: Responsive List (2 columns on desktop, 1 column on mobile) // Start -->
-                                       <div class="row">
-                                          <div class="col-md-6">
-                                             <ul class="custom-list">
-                                                <li><i class="bi bi-grid-fill icon"></i> <strong>Birthday:</strong> 1 May 1995</li>
-                                                <li><i class="bi bi-grid-fill icon"></i> <strong>Website:</strong> www.example.com</li>
-                                                <li><i class="bi bi-grid-fill icon"></i> <strong>Phone:</strong> +123 456 7890</li>
-                                                <li><i class="bi bi-grid-fill icon"></i> <strong>City:</strong> New York, USA</li>
-                                             </ul>
-                                          </div>
-                                          <div class="col-md-6">
-                                             <ul class="custom-list">
-                                                <li><i class="bi bi-grid-fill icon"></i> <strong>Age:</strong> 30</li>
-                                                <li><i class="bi bi-grid-fill icon"></i> <strong>Degree:</strong> Master</li>
-                                                <li><i class="bi bi-grid-fill icon"></i> <strong>Email:</strong> email@example.com</li>
-                                                <li><i class="bi bi-grid-fill icon"></i> <strong>Freelance:</strong> Available</li>
-                                             </ul>
-                                          </div>
-                                       </div>
-                                    <!-- Row 2: Responsive List (2 columns on desktop, 1 column on mobile) // End -->
-
-                                    <!-- Row 3: Bottom Text // Start -->
-                                       <div class="row">
-                                          <p>Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis. Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.</p>
-                                       </div>
-                                    <!-- Row 3: Bottom Text // Start -->
-
-                                 </div>
-                              <!-- New Container with 3 Rows // End -->
-
-                           </div>
-                        <!-- Right Column: Text "Learn more about me" // Start -->
-
-                     </div>
-                  <!-- First Row: Introduction // End -->
-
-                  <!-- Second Row: Happy Clients // Start -->
-                     <div class="row happy-clients-row">
-
-                        <div class="col-6 col-md">
-                           <i class="bi bi-emoji-smile-fill"></i>
-                           <p class="stats">232</p>
-                           <p>Happy Clients</p>
-                        </div>
-
-                        <div class="col-6 col-md">
-                           <i class="bi bi-journal-richtext"></i>
-                           <p class="stats">521</p>
-                           <p>Projects</p>
-                        </div>
-
-                        <div class="col-6 col-md">
-                           <i class="bi bi-headset"></i>
-                           <p class="stats">1463</p>
-                           <p>Hours Of Support</p>
-                        </div>
-
-                        <div class="col-6 col-md">
-                           <i class="bi bi-award"></i>
-                           <p class="stats">24</p>
-                           <p>Awards</p>
-                        </div>
-
-                     </div>
-                  <!-- Second Row: Happy Clients // End -->
-
-                  <!-- Third Row: Skill Bars // Start -->
-                     <div class="skill-bars-section">
-                        <div class="container">
-
-                           <!-- First Row: Skill Heading // Start -->
-                              <div class="row skill-heading-row">
-                                 <div class="col">
-                                    <h2>SKILLS</h2>
-                                 </div>
-                              </div>
-                           <!-- First Row: Skill Heading // End -->
-
-                           <!-- Second Row: Skill Bars // Start -->
-                              <div class="row skill-bars-row">
-
-                                 <div class="col-md-6 skill">
-                                    <div class="skill-info">
-                                       <p>HTML</p>
-                                       <span class="skill-percentage">100%</span>
-                                    </div>
-                                    <div class="skill-bar">
-                                       <div class="skill-level" data-skill-level="100"></div>
-                                    </div>
-                                 </div>
-
-                                 <div class="col-md-6 skill">
-                                    <div class="skill-info">
-                                       <p>CSS</p>
-                                       <span class="skill-percentage">80%</span>
-                                    </div>
-                                    <div class="skill-bar">
-                                       <div class="skill-level" data-skill-level="80"></div>
-                                    </div>
-                                 </div>
-
-                                 <div class="col-md-6 skill">
-                                    <div class="skill-info">
-                                       <p>JavaScript</p>
-                                       <span class="skill-percentage">75%</span>
-                                    </div>
-                                    <div class="skill-bar">
-                                       <div class="skill-level" data-skill-level="75"></div>
-                                    </div>
-                                 </div>
-
-                                 <div class="col-md-6 skill">
-                                    <div class="skill-info">
-                                       <p>PHP</p>
-                                       <span class="skill-percentage">80%</span>
-                                    </div>
-                                    <div class="skill-bar">
-                                       <div class="skill-level" data-skill-level="80"></div>
-                                    </div>
-                                 </div>
-
-                                 <div class="col-md-6 skill">
-                                    <div class="skill-info">
-                                       <p>WordPress/CMS</p>
-                                       <span class="skill-percentage">90%</span>
-                                    </div>
-                                    <div class="skill-bar">
-                                       <div class="skill-level" data-skill-level="90"></div>
-                                    </div>
-                                 </div>
-
-                                 <div class="col-md-6 skill">
-                                    <div class="skill-info">
-                                       <p>Photoshop</p>
-                                       <span class="skill-percentage">65%</span>
-                                    </div>
-                                    <div class="skill-bar">
-                                       <div class="skill-level" data-skill-level="65"></div>
-                                    </div>
-                                 </div>
-
-                              </div>
-                           <!-- Second Row: Skill Bars // Start -->
-
-                        </div>
-                     </div>
-                  <!-- Third Row: Skill Bars // End -->
-
-                  <!-- Fourth Row: Interests // Start -->
-                     <div class="interests-section">
-                        <div class="container">
-
-                           <!-- Interests Heading // Start -->
-                              <div class="row">
-                                 <div class="col">
-                                    <h2>INTERESTS</h2>
-                                 </div>
-                              </div>
-                           <!-- Interests Heading // End -->
-
-                           <!-- Interests Boxes // Start -->
-                              <div class="row">
-
-                                 <div class="col-md-3">
-                                    <a href="#" class="interest-box"><i class="bi bi-link-45deg"></i><span>Interest</span></a>
-                                 </div>
-                                 <div class="col-md-3">
-                                    <a href="#" class="interest-box"><i class="bi bi-link-45deg"></i><span>Interest</span></a>
-                                 </div>
-                                 <div class="col-md-3">
-                                    <a href="#" class="interest-box"><i class="bi bi-link-45deg"></i><span>Interest</span></a>
-                                 </div>
-                                 <div class="col-md-3">
-                                    <a href="#" class="interest-box"><i class="bi bi-link-45deg"></i><span>Interest</span></a>
-                                 </div>
-                                 <div class="col-md-3">
-                                    <a href="#" class="interest-box"><i class="bi bi-link-45deg"></i><span>Interest</span></a>
-                                 </div>
-                                 <div class="col-md-3">
-                                    <a href="#" class="interest-box"><i class="bi bi-link-45deg"></i><span>Interest</span></a>
-                                 </div>
-                                 <div class="col-md-3">
-                                    <a href="#" class="interest-box"><i class="bi bi-link-45deg"></i><span>Interest</span></a>
-                                 </div>
-                                 <div class="col-md-3">
-                                    <a href="#" class="interest-box"><i class="bi bi-link-45deg"></i><span>Interest</span></a>
-                                 </div>
-                                 <div class="col-md-3">
-                                    <a href="#" class="interest-box"><i class="bi bi-link-45deg"></i><span>Interest</span></a>
-                                 </div>
-                                 <div class="col-md-3">
-                                    <a href="#" class="interest-box"><i class="bi bi-link-45deg"></i><span>Interest</span></a>
-                                 </div>
-                                 <div class="col-md-3">
-                                    <a href="#" class="interest-box"><i class="bi bi-link-45deg"></i><span>Interest</span></a>
-                                 </div>
-                                 <div class="col-md-3">
-                                    <a href="#" class="interest-box"><i class="bi bi-link-45deg"></i><span>Interest</span></a>
-                                 </div>
-
-                              </div>
-                           <!-- Interests Boxes // End -->
-
-                        </div>
-                     </div>
-                  <!-- Fourth Row: Interests // End -->
-
-                  <!-- Fifth Row: Testimonials // Start -->
-                     <section class="testimonials-section">
-                        <div class="container">
-
-                           <!-- Testimonials Heading // Start -->
-                              <h2 class="section-title">TESTIMONIALS</h2>
-                           <!-- Testimonials Heading // Start -->
-
-                           <!-- Testimonials Boxes // Start -->
-                              <div class="row">
-
-                                 <div class="col-md-4">
-                                    <div class="testimonial-box d-flex">
-                                       <div class="client-img-container">
-                                          <img src="assets/img/client-1.png" alt="Client 1" class="client-img">
-                                       </div>
-                                       <div class="testimonial-text">
-                                          <span class="testimonial-quote">Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend.</span>
-                                          <p class="client-name">John Doe</p>
-                                          <p class="client-company">Freelancer</p>
-                                       </div>
-                                    </div>
-                                 </div>
-
-                                 <div class="col-md-4">
-                                    <div class="testimonial-box d-flex">
-                                       <div class="client-img-container">
-                                          <img src="assets/img/client-2.png" alt="Client 2" class="client-img">
-                                       </div>
-                                       <div class="testimonial-text">
-                                          <span class="testimonial-quote">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
-                                          <p class="client-name">Jane Smith</p>
-                                          <p class="client-company">Company ABC</p>
-                                       </div>
-                                    </div>
-                                 </div>
-
-                                 <div class="col-md-4">
-                                    <div class="testimonial-box d-flex">
-                                       <div class="client-img-container">
-                                          <img src="assets/img/client-3.png" alt="Client 3" class="client-img">
-                                       </div>
-                                       <div class="testimonial-text">
-                                          <span class="testimonial-quote">Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend.</span>
-                                          <p class="client-name">Alice Johnson</p>
-                                          <p class="client-company">Company XYZ</p>
-                                       </div>
-                                    </div>
-                                 </div>
-
-                              </div>
-                              <div class="row">
-
-                                 <div class="col-md-4">
-                                    <div class="testimonial-box d-flex">
-                                       <div class="client-img-container">
-                                          <img src="assets/img/client-4.png" alt="Client 4" class="client-img">
-                                       </div>
-                                       <div class="testimonial-text">
-                                          <span class="testimonial-quote">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
-                                          <p class="client-name">Bob Brown</p>
-                                          <p class="client-company">Freelancer</p>
-                                       </div>
-                                    </div>
-                                 </div>
-
-                                 <div class="col-md-4">
-                                    <div class="testimonial-box d-flex">
-                                       <div class="client-img-container">
-                                          <img src="assets/img/client-5.png" alt="Client 5" class="client-img">
-                                       </div>
-                                       <div class="testimonial-text">
-                                          <span class="testimonial-quote">Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend.</span>
-                                          <p class="client-name">Chris Green</p>
-                                          <p class="client-company">Company DEF</p>
-                                       </div>
-                                    </div>
-                                 </div>
-
-                                 <div class="col-md-4">
-                                    <div class="testimonial-box d-flex">
-                                       <div class="client-img-container">
-                                          <img src="assets/img/client-6.png" alt="Client 6" class="client-img">
-                                       </div>
-                                       <div class="testimonial-text">
-                                          <span class="testimonial-quote">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
-                                          <p class="client-name">Emma White</p>
-                                          <p class="client-company">Company GHI</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                        
-                              </div>
-                           <!-- Testimonials Boxes // Start -->
-
-                        </div>
-                     </section>
-                  <!-- Fifth Row: Testimonials // End -->
-
-               </div>
-            </section>        
-         <!-- About Section // End -->
-         
-         <!-- Resume Section // Start -->
-         <div id="resume" class="resume-section">
-            <div class="container">
-
-               <!-- Resume Heading // Start -->
-                  <div class="col-12 text-center">
-                     <h2 class="section-header">CHECK MY RESUME</h2> <!-- Section Header -->
-                  </div>
-               <!-- Resume Heading // Start -->
-
-               <!-- Resume Content // Start -->
-                  <div class="row">
-
-                     <!-- Education and Licenses // Start -->
-                        <div class="col-md-6 education-section">
-
-                           <!-- Education Heading // Start -->
-                              <h3>Education</h3>
-                           <!-- Education Heading // End -->
-
-                           <!-- Education Timeline // Start -->
-                              <div class="timeline">
-
-                                 <!-- Education Item 1 // Start -->
-                                    <div class="timeline-item">
-                                       <div class="timeline-icon">
-                                          <i class="bi bi-mortarboard"></i>
-                                       </div>
-                                       <div class="timeline-content">
-                                          <h4>Master of Fine Arts & Graphic Design</h4>
-                                          <span>2015 - 2016</span>
-                                          <div class="institution">
-                                             <i class="bi bi-bank"></i> Rochester Institute of Technology, Rochester, NY
-                                             <br>
-                                             <i class="bi bi-geo-alt"></i> Country
-                                          </div>
-                                          <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend.</p>
-                                       </div>
-                                    </div>
-                                 <!-- Education Item 1 // End -->
-
-                                 <!-- Education Item 2 // Start -->
-                                    <div class="timeline-item">
-                                       <div class="timeline-icon">
-                                          <i class="bi bi-mortarboard"></i>
-                                       </div>
-                                       <div class="timeline-content">
-                                          <h4>Bachelor of Fine Arts & Graphic Design</h4>
-                                          <span>2010 - 2014</span>
-                                          <div class="institution">
-                                             <i class="bi bi-bank"></i> Rochester Institute of Technology, Rochester, NY
-                                             <br>
-                                             <i class="bi bi-geo-alt"></i> Country
-                                          </div>
-                                          <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila.</p>
-                                       </div>
-                                    </div>
-                                 <!-- Education Item 2 // End -->
-
-                              </div>
-                           <!-- Education Timeline // End -->
-
-                           <!-- Licenses/Certifications Section // Start -->
-                              <div class="licenses-section">
-                                 
-                                 <!-- Licenses/Certifications Heading // Start -->
-                                    <h3>Licenses/Certifications</h3>
-                                 <!-- Licenses/Certifications Heading // End -->
-
-                                 <!-- Licenses/Certifications Timeline // Start -->
-                                    <div class="timeline">
-
-                                    <!-- License Item 1 // Start -->
-                                       <div class="timeline-item">
-                                          <div class="timeline-icon">
-                                             <i class="bi bi-mortarboard"></i>
-                                          </div>
-                                          <div class="timeline-content">
-                                             <h4>Master of Fine Arts & Graphic Design</h4>
-                                             <span>2015 - 2016</span>
-                                             <div class="institution">
-                                                <i class="bi bi-bank"></i> Rochester Institute of Technology, Rochester, NY
-                                                <br>
-                                                <i class="bi bi-geo-alt"></i> Country
-                                             </div>
-                                             <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend.</p>
-                                          </div>
-                                       </div>
-                                    <!-- License Item 1 // End -->
-
-                                    </div>
-                                 <!-- Licenses/Certifications Timeline // End -->
-
-                              </div>
-                           <!-- Licenses/Certifications Section End -->
-
-                        </div>
-                     <!-- Education and Licenses // End -->
-
-                     <!-- Work Experience // Start -->
-                        <div class="col-md-6 experience-section">
-                           <!-- Work Experience Heading // Start -->
-                              <h3>Work Experience</h3>
-                           <!-- Work Experience Heading // End -->
-
-                           <!-- Work Experience Timeline // Start -->
-                              <div class="timeline">
-
-                                 <!-- Work Experience Item 1 // Start -->
-                                    <div class="timeline-item">
-                                       <div class="timeline-icon">
-                                          <i class="bi bi-briefcase"></i>
-                                       </div>
-                                       <div class="timeline-content">
-                                          <h4>Graphic Designer</h4>
-                                          <span>2018 - Present</span>
-                                          <div class="institution">
-                                             <i class="bi bi-building"></i> Creative Agency, New York, NY
-                                             <br>
-                                             <i class="bi bi-geo-alt"></i> Country
-                                          </div>
-                                          <p>Some description about the role and responsibilities in this position.</p>
-                                       </div>
-                                    </div>
-                                 <!-- Work Experience Item 1 // End -->
-
-                                 <!-- Work Experience Item 2 // Start -->
-                                    <div class="timeline-item">
-                                       <div class="timeline-icon">
-                                          <i class="bi bi-briefcase"></i>
-                                       </div>
-                                       <div class="timeline-content">
-                                          <h4>Junior Graphic Designer</h4>
-                                          <span>2016 - 2018</span>
-                                          <div class="institution">
-                                             <i class="bi bi-building"></i> Design Studio, Chicago, IL
-                                             <br>
-                                             <i class="bi bi-geo-alt"></i> Country
-                                          </div>
-                                          <p>Some description about the role and responsibilities in this position.</p>
-                                       </div>
-                                    </div>
-                                 <!-- Work Experience Item 2 // End -->
-
-                                 <!-- Work Experience Item 3 // Start -->
-                                    <div class="timeline-item">
-                                       <div class="timeline-icon">
-                                          <i class="bi bi-briefcase"></i>
-                                       </div>
-                                       <div class="timeline-content">
-                                          <h4>Junior Graphic Designer</h4>
-                                          <span>2016 - 2018</span>
-                                          <div class="institution">
-                                             <i class="bi bi-building"></i> Design Studio, Chicago, IL
-                                             <br>
-                                             <i class="bi bi-geo-alt"></i> Country
-                                          </div>
-                                          <p>Some description about the role and responsibilities in this position.</p>
-                                       </div>
-                                    </div>
-                                 <!-- Work Experience Item 3 // End -->
-
-                                 <!-- Work Experience Item 4 // Start -->
-                                    <div class="timeline-item">
-                                       <div class="timeline-icon">
-                                          <i class="bi bi-briefcase"></i>
-                                       </div>
-                                       <div class="timeline-content">
-                                          <h4>Junior Graphic Designer</h4>
-                                          <span>2016 - 2018</span>
-                                          <div class="institution">
-                                             <i class="bi bi-building"></i> Design Studio, Chicago, IL
-                                             <br>
-                                             <i class="bi bi-geo-alt"></i> Country
-                                          </div>
-                                          <p>Some description about the role and responsibilities in this position.</p>
-                                       </div>
-                                    </div>
-                                 <!-- Work Experience Item 4 // End -->
-
-                              </div>
-                           <!-- Work Experience Timeline // End -->
-                        </div>
-                     <!-- Work Experience // End -->
-
-                  </div>
-               <!-- Resume Content // End -->
-
+               
+               <p class="footer-text">&copy; 2002 - 2024 | <i class="fa-brands fa-github"></i> <a href="https://github.com/thenocturnaldevgypsy-io/nightfall-bootstrap-template-personal" target="_blank">Nightfall : Free Personal Website Theme built with Bootstrap 5.3.3 by TheNocturnalDevGypsy</a> | Made with <i class="fa-solid fa-heart"></i> + <i class="fa-brands fa-bootstrap"></i></p>
             </div>
-         </div>
-         <!-- Resume Section // End -->
 
-         <!-- Portfolio Section // Start -->
-            <section id="portfolio" class="portfolio-section">
-               <div class="container">
-                  <!-- First Row: Header // Start -->
-                     <div class="row">
-                        <div class="col text-center">
-                              <h2>MY WORKS</h2>
-                        </div>
-                     </div>
-                  <!-- First Row: Header // End -->
+         </section>
+         <!-- Home > Hero Section // End -->
 
-                  <!-- Second Row: Work Boxes // Start -->
-                     <div class="row">
-
-                        <!-- Work Box 1 // Start -->
-                           <div class="col-md-4">
-                                 <div class="portfolio-item">
-                                    <img src="assets/img/portfolio-1.jpg" alt="Portfolio 1" class="img-fluid">
-                                    <div class="portfolio-info">
-                                       <h4>Sample Project 1</h4>
-                                       <span class="badge bg-primary">WEB</span>
-                                       <span class="badge bg-secondary">DESIGN</span>
-                                    </div>
-                                 </div>
-                           </div>
-                        <!-- Work Box 1 // End -->
-
-                        <!-- Work Box 2 // Start -->
-                           <div class="col-md-4">
-                                 <div class="portfolio-item">
-                                    <img src="assets/img/portfolio-2.jpg" alt="Portfolio 2" class="img-fluid">
-                                    <div class="portfolio-info">
-                                       <h4>Sample Project 2</h4>
-                                       <span class="badge bg-success">CONSULTATION</span>
-                                    </div>
-                                 </div>
-                           </div>
-                        <!-- Work Box 2 // End -->
-
-                        <!-- Work Box 3 // Start -->
-                           <div class="col-md-4">
-                                 <div class="portfolio-item">
-                                    <img src="assets/img/portfolio-3.jpg" alt="Portfolio 3" class="img-fluid">
-                                    <div class="portfolio-info">
-                                       <h4>Sample Project 3</h4>
-                                       <span class="badge bg-info">OPEN SOURCE</span>
-                                    </div>
-                                 </div>
-                           </div>
-                        <!-- Work Box 3 // End -->
-
-                        <!-- Work Box 4 // Start -->
-                           <div class="col-md-4">
-                                 <div class="portfolio-item">
-                                    <img src="assets/img/portfolio-4.jpg" alt="Portfolio 4" class="img-fluid">
-                                    <div class="portfolio-info">
-                                       <h4>Sample Project 4</h4>
-                                       <span class="badge bg-primary">WEB</span>
-                                       <span class="badge bg-secondary">DESIGN</span>
-                                    </div>
-                                 </div>
-                           </div>
-                        <!-- Work Box 4 // End -->
-
-                        <!-- Work Box 5 // Start -->
-                           <div class="col-md-4">
-                                 <div class="portfolio-item">
-                                    <img src="assets/img/portfolio-5.jpg" alt="Portfolio 5" class="img-fluid">
-                                    <div class="portfolio-info">
-                                       <h4>Sample Project 5</h4>
-                                       <span class="badge bg-success">CONSULTATION</span>
-                                    </div>
-                                 </div>
-                           </div>
-                        <!-- Work Box 5 // End -->
-
-                        <!-- Work Box 6 // Start -->
-                           <div class="col-md-4">
-                                 <div class="portfolio-item">
-                                    <img src="assets/img/portfolio-6.jpg" alt="Portfolio 6" class="img-fluid">
-                                    <div class="portfolio-info">
-                                       <h4>Sample Project 6</h4>
-                                       <span class="badge bg-info">OPEN SOURCE</span>
-                                    </div>
-                                 </div>
-                           </div>
-                        <!-- Work Box 6 // End -->
-
-                        <!-- Work Box 7 // Start -->
-                           <div class="col-md-4">
-                                 <div class="portfolio-item">
-                                    <img src="assets/img/portfolio-7.jpg" alt="Portfolio 7" class="img-fluid">
-                                    <div class="portfolio-info">
-                                       <h4>Sample Project 7</h4>
-                                       <span class="badge bg-primary">WEB</span>
-                                    </div>
-                                 </div>
-                           </div>
-                        <!-- Work Box 7 // End -->
-
-                        <!-- Work Box 8 // Start -->
-                           <div class="col-md-4">
-                                 <div class="portfolio-item">
-                                    <img src="assets/img/portfolio-8.jpg" alt="Portfolio 8" class="img-fluid">
-                                    <div class="portfolio-info">
-                                       <h4>Sample Project 8</h4>
-                                       <span class="badge bg-secondary">DESIGN</span>
-                                    </div>
-                                 </div>
-                           </div>
-                        <!-- Work Box 8 // End -->
-
-                        <!-- Work Box 9 // Start -->
-                           <div class="col-md-4">
-                                 <div class="portfolio-item">
-                                    <img src="assets/img/portfolio-9.jpg" alt="Portfolio 9" class="img-fluid">
-                                    <div class="portfolio-info">
-                                       <h4>Sample Project 9</h4>
-                                       <span class="badge bg-info">OPEN SOURCE</span>
-                                    </div>
-                                 </div>
-                           </div>
-                        <!-- Work Box 9 // End -->
-
-                     </div>
-                  <!-- Second Row: Work Boxes // End -->
-
-               </div>
-            </section>
-         <!-- Portfolio Section // End -->
-
-         <!-- Services Section // Start -->
-            <section id="services" class="services-section">
-               <div class="container">
-                  
-                  <!-- Services Header // Start -->
-                     <div class="row">
-                        <div class="col text-center">
-                              <h2>MY SERVICES</h2>
-                        </div>
-                     </div>
-                  <!-- Services Header // End -->
-                  
-                  <!-- Services Offerings Row // Start -->
-                     <div class="row">
-
-                        <!-- Service Box 1 // Start -->
-                           <div class="col text-center service-box">
-                                 <i class="bi bi-bug"></i>
-                                 <h4>Service One</h4>
-                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure dolor in reprehenderit in voluptate velit.</p>
-                           </div>
-                        <!-- Service Box 1 // End -->
-
-                        <!-- Service Box 2 // Start -->
-                           <div class="col text-center service-box">
-                                 <i class="bi bi-bug"></i>
-                                 <h4>Service Two</h4>
-                                 <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                           </div>
-                        <!-- Service Box 2 // End -->
-
-                        <!-- Service Box 3 // Start -->
-                           <div class="col text-center service-box">
-                                 <i class="bi bi-bug"></i>
-                                 <h4>Service Three</h4>
-                                 <p>Duis aute irure dolor in reprehenderit in voluptate velit. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-                           </div>
-                        <!-- Service Box 3 // End -->
-
-                     </div>
-                  <!-- Services Offerings Row // End -->
-
-               </div>
-            </section>
-         <!-- Services Section // End -->
-
-
-<!-- Contact Section // Start -->
-<section id="contact" class="contact-section">
-   <div class="container">
-       <!-- Contact Header Row -->
-       <div class="row">
-           <div class="col text-center">
-               <h2>CONTACT</h2>
-           </div>
-       </div>
-       
-       <!-- Contact Information Row -->
-       <div class="row">
-           <!-- Email Box with Two Columns -->
-           <div class="col-lg-4 col-md-6 col-sm-12 text-center contact-box">
-               <div class="row align-items-center">
-                   <!-- Left Column: Icon -->
-                   <div class="col-3 text-center">
-                       <i class="bi bi-envelope"></i>
-                   </div>
-                   <!-- Right Column: Text -->
-                   <div class="col-9 text-left">
-                       <h4>Email</h4>
-                       <p><a href="mailto:me@email.com" style="color: #d1f1ff;">me@email.com</a></p>
-                   </div>
-               </div>
-           </div>
-
-           <!-- Phone Box -->
-           <div class="col text-center phone-box contact-box">
-               <div class="row">
-                   <!-- Left Column - Icon -->
-                   <div class="col-2">
-                       <i class="bi bi-telephone"></i> <!-- Phone icon -->
-                   </div>
-                   <!-- Right Column - Text -->
-                   <div class="col-10">
-                     <p>(123) 456-7890</p> <!-- Phone number -->
-                       <p>(123) 456-7890</p> <!-- Phone number -->
-                   </div>
-               </div>
-           </div>
-
-           <!-- Social Media Box -->
-           <div class="col text-center social-media-box contact-box">
-               <div class="row">
-                   <!-- Left Column - Large Icon -->
-                   <div class="col-3">
-                       <i class="bi bi-link-45deg"></i> <!-- Link icon -->
-                   </div>
-                   <!-- Right Column - Text and Social Media Icons -->
-                   <div class="col-9">
-                       <h4>Social Media</h4>
-                       <div class="social-icons">
-                           <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
-                           <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
-                           <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
-                           <a href="#" aria-label="Twitter"><i class="bi bi-twitter"></i></a>
-                           <a href="#" aria-label="Mastodon"><i class="bi bi-mastodon"></i></a>
-                           <a href="#" aria-label="GitHub"><i class="bi bi-github"></i></a>
-                       </div>
-                   </div>
-               </div>
-           </div>
-       </div>
-   </div>
-</section>
-<!-- Contact Section // End -->
-
-<!-- Footer Section // Start -->
-<footer id="footer" class="footer-section">
-   <div class="container text-center">
-       <p>Made by TheNocturnalDevGypsy | Version 1.2.1</p>
-   </div>
-</footer>
-<!-- Footer Section // End -->
-
-
+      </main>
       <!-- Content // End -->
 
-      <!-- Vendor JS Files // Start -->
-      <script src="assets/vendor/bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></script> 
-      <!-- Vendor JS Files // End -->
+      <!-- Scroll Top // Start -->
+      <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+      <!-- Scroll Top // End -->
+
+      <!-- Preloader // Start -->
+      <div id="preloader"></div>
+      <!-- Preloader // End -->
+
+      <!-- Library JS Files // Start -->
+      <script src="assets/library/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script src="assets/library/aos/aos.js"></script>
+      <script src="assets/library/typed.js/typed.umd.js"></script>
+      <script src="assets/library/purecounter/purecounter_vanilla.js"></script>
+      <script src="assets/library/waypoints/noframework.waypoints.js"></script>
+      <script src="assets/library/swiper/swiper-bundle.min.js"></script>
+      <script src="assets/library/imagesloaded/imagesloaded.pkgd.min.js"></script>
+      <script src="assets/library/isotope-layout/isotope.pkgd.min.js"></script>
+      <!-- Library JS Files // Start -->
 
       <!-- Theme JS Files // Start -->
-         <script src="assets/js/nightfall.op.core.js"></script>
+      <script src="assets/js/main.core.js"></script>
       <!-- Theme JS Files // End -->
 
    </body>
