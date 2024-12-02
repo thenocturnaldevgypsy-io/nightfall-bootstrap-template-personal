@@ -60,11 +60,7 @@ phpMyAdmin Version information: 5.1.2
 - Font: Ubuntu from Google Fonts
 ```
 **Image Sources Credits**
-- [Avatars in Pixels: Minipix Dollmaker - Randomly Generated](https://www.avatarsinpixels.com/minipix/clothing/Body) : `assets/img/img-profile.jpg`, `assets/img/client-1.jpg`, `assets/img/client-2.jpg`, `assets/img/client-3.jpg`, `assets/img/client-4.jpg`, `assets/img/client-5.jpg`, `assets/img/client-6.jpg`
-
-- [Gencraft - Assets by Cinnapixel](https://gencraft.com/u/Cinnapixel) : `assets/img/portfolio-1.jpg`, `assets/img/portfolio-2.jpg`, `assets/img/portfolio-3.jpg`, `assets/img/portfolio-4.jpg`, `assets/img/portfolio-5.jpg`, `assets/img/portfolio-6.jpg`
-
-- [Freepik - Assets by Freepik](https://www.freepik.com/author/freepik) : `assets/img/portfolio-7.jpg`, `assets/img/portfolio-8.jpg`, `assets/img/portfolio-9.jpg`
+- [Coding, Computer, Hacker image. Free for use - Assets by Pexels](https://pixabay.com/photos/coding-computer-hacker-hacking-1841550/) : `assets/images/hero-bg.jpg`
 
 ## ![SECTION Folders and Files Structure](https://custom-icon-badges.demolab.com/badge/-Folders%20and%20Files%20Structure-2471AE?logo=file-submodule&logoColor=white&labelColor=2471AE)
 
