@@ -61,6 +61,12 @@ phpMyAdmin Version information: 5.1.2
 ```
 **Image Sources Credits**
 - [Coding, Computer, Hacker image. Free for use - Assets by Pexels](https://pixabay.com/photos/coding-computer-hacker-hacking-1841550/) : `assets/images/hero-bg.jpg`
+- [Adult, Blue hour, Brunette image. Free for use - Assets by Pexels](https://pixabay.com/photos/adult-blue-hour-brunette-city-2179060/) : `assets/images/profile-img.jpg`
+- [Adult, Architecture, Building image. Free for use - Assets by Pexels](https://pixabay.com/photos/adult-architecture-building-2178861/) : `assets/images/testimonials/testimonials-1.jpg`
+- [Woman, Adult, Dress image. Free for use - Assets by Pexels](https://pixabay.com/photos/woman-adult-dress-elegant-fashion-2178816/) : `assets/images/testimonials/testimonials-2.jpg`
+- [Barnett, Concert, Courtney image. Free for use - Assets by Pexels](https://pixabay.com/photos/barnett-concert-courtney-live-music-2178772/) : `assets/images/testimonials/testimonials-3.jpg`
+- [Beautiful, Fashion, Female image. Free for use - Assets by Pexels](https://pixabay.com/photos/beautiful-fashion-female-girl-2178708/) : `assets/images/testimonials/testimonials-4.jpg`
+- [Black, Black and white, Emotions image. Free for use - Assets by Pexels](https://pixabay.com/photos/black-black-and-white-emotions-2178681/) : `assets/images/testimonials/testimonials-5.jpg`
 
 ## ![SECTION Folders and Files Structure](https://custom-icon-badges.demolab.com/badge/-Folders%20and%20Files%20Structure-2471AE?logo=file-submodule&logoColor=white&labelColor=2471AE)
 
