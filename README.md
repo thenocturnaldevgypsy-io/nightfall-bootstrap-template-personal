@@ -172,7 +172,7 @@ Below is the latest updates, go to the [Changelog Listing](CHANGELOG.md) for the
 
 | Version | Date | Commit | Type | Description |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| 2.0.0 | 03.12.2024 | []() for [PR ]() | refactor/perf/chore | - Updated the full template from one page to multi-page template<br>- Rechecking the CSS respositive, added more clearer comments<br>- Removed the old deployments that was linked to my old GitHub account at Vercel and Netlify, redeployed the latest version at Vercel (https://nightfall-eight.vercel.app)<br>- Updated the repo's documentation |
+| 2.0.0 | 03.12.2024 | [fbe2a27](https://github.com/thenocturnaldevgypsy-io/nightfall-bootstrap-template-personal/commit/fbe2a2749efe82420118841651f4844dee4b3a21) for [PR 11](https://github.com/thenocturnaldevgypsy-io/nightfall-bootstrap-template-personal/pull/11) | refactor/perf/chore | - Updated the full template from one page to multi-page template<br>- Rechecking the CSS respositive, added more clearer comments<br>- Removed the old deployments that was linked to my old GitHub account at Vercel and Netlify, redeployed the latest version at Vercel (https://nightfall-eight.vercel.app)<br>- Updated the repo's documentation |
 
 ## ![SECTION Contribute](https://custom-icon-badges.demolab.com/badge/-Contribute-2471AE?logo=code-of-conduct&logoColor=white&labelColor=2471AE)
 Want to contribute? Great! Contributions welcome, but please read the [contribution guidelines](CONTRIBUTING.md) first on how to contribute to the project, including pull request guidelines and community contributions.

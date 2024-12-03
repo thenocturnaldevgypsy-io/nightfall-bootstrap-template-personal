@@ -25,7 +25,7 @@ Version Latest Live URL: https://nightfall-eight.vercel.app/
 
 | Version | Date | Commit | Type | Description |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| 2.0.0 | 03.12.2024 | []() for [PR ]() | refactor/perf/chore | - Updated the full template from one page to multi-page template<br>- Rechecking the CSS respositive, added more clearer comments<br>- Removed the old deployments that was linked to my old GitHub account at Vercel and Netlify, redeployed the latest version at Vercel (https://nightfall-eight.vercel.app)<br>- Updated the repo's documentation |
+| 2.0.0 | 03.12.2024 | [fbe2a27](https://github.com/thenocturnaldevgypsy-io/nightfall-bootstrap-template-personal/commit/fbe2a2749efe82420118841651f4844dee4b3a21) for [PR 11](https://github.com/thenocturnaldevgypsy-io/nightfall-bootstrap-template-personal/pull/11) | refactor/perf/chore | - Updated the full template from one page to multi-page template<br>- Rechecking the CSS respositive, added more clearer comments<br>- Removed the old deployments that was linked to my old GitHub account at Vercel and Netlify, redeployed the latest version at Vercel (https://nightfall-eight.vercel.app)<br>- Updated the repo's documentation |
 
 ## ![SECTION Changelog under Version 1](https://custom-icon-badges.demolab.com/badge/-Changelog%20under%20Version%201-24292e?logo=flame&logoColor=white&labelColor=00416a)
 
