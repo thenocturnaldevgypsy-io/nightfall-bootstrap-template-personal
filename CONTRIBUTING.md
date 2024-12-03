@@ -28,7 +28,7 @@ Hi! I appreciate your interest in contributing. 😊 This guide will help you ge
 
 - 📝 Documentation Updates: Help me improve user experience and clarity by contributing to the documentation section with updates, clarifications, or additional information.
 
-- ✨Code Contributions : Contributors can enhance the project by implementing new features or improvements suggested by users. Unfortunately, I will move this one to hiatus first, as I need to make arrangement with reviewing those in the future.
+- ✨Code Contributions : Contributors can enhance the project by implementing new features or improvements suggested by users.
 
 ## ![SUBSECTION How to Contribute](https://custom-icon-badges.demolab.com/badge/-How%20to%20Contribute-24292e?logo=people&logoColor=white&labelColor=00416a)
 
@@ -40,4 +40,4 @@ Hi! I appreciate your interest in contributing. 😊 This guide will help you ge
    - `enhancement` : new feature or request
    
    Do your best to fill out each field, preferably in as much detail as possible.
-- Assign the ticket to me ([Abegail Torrendon / TheNocturnalDevGypsy](https://github.com/thenocturnaldevgypsy-io)) so I can review and I'll work on it.
+- Assign the ticket to me ([Abegail Torrendon / TheNocturnalDevGypsy](https://github.com/thenocturnaldevgypsy-io)) so I can review and I'll work on it (or we can do a collaboration).
