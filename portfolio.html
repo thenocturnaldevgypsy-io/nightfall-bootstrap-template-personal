@@ -109,7 +109,7 @@
          <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
             <!-- Logo and Header Text // Start -->
-            <a href="index.html" class="logo d-flex align-items-center"><img src="assets/images/logo.png" alt=""><h1 class="sitename">...</h1></a>
+            <a href="index.html" class="logo d-flex align-items-center"><img src="assets/images/logo.png" alt=""><h1 class="sitename">Nightfall</h1></a>
             <!-- Logo and Header Text // End -->
 
             <!-- Navbar Links // Start -->
@@ -118,11 +118,23 @@
                   <li><a href="index.html">Home</a></li>
                   <li><a href="about.html">About</a></li>
                   <li><a href="education.html">Education</a></li>
-                  <li><a href="experience-management-project-product-development.html">Experience : Tech</a></li>
-                  <li><a href="experience-academia-learning.html">Experience : Academia</a></li>
-                  <li><a href="portfolio-public.html" class="active">Portfolio</a></li>
-                  <li><a href="services.html">Services</a></li>
-                  <li><a href="hire-and-contact.html">Hire + Shops + Contact</a></li>
+                  <li><a href="experience.html">Experience</a></li>
+                  <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                  <li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                     <ul>
+                        <li><a href="services-1.html">Services Page</a></li>
+                        <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                           <ul>
+                              <li><a href="#">Deep Dropdown 1</a></li>
+                              <li><a href="#">Deep Dropdown 2</a></li>
+                              <li><a href="#">Deep Dropdown 3</a></li>
+                              <li><a href="#">Deep Dropdown 4</a></li>
+                              <li><a href="#">Deep Dropdown 5</a></li>
+                           </ul>
+                        </li>
+                     </ul>
+                  </li>
+                  <li><a href="contact.html">Contact</a></li>
                </ul>
                <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
             </nav>
@@ -143,7 +155,7 @@
                      <div class="col-lg-8">
                         <h1>Portfolio</h1>
                         <h2>A showcase of my professional work, freelance projects, open-source contributions, and experiments</h2>
-                        <p class="mb-0">Please note that this portfolio does not include all of my work due to confidentiality agreements. If you require access to additional projects, feel free to send a request to <a href="mailto:hi@thenocturnaldevgypsy.io" target="_blank">hi@thenocturnaldevgypsy.io</a> </p>
+                        <p class="mb-0">Additional info that you might want to place here</a></p>
                      </div>
                   </div>
                </div>
@@ -161,15 +173,9 @@
                   <!-- Portfolio > Items > Isotope Animation > Filter // Start -->
                   <ul class="portfolio-filters isotope-filters">
                      <li data-filter="*" class="filter-active">All</li>
-                     <li data-filter=".filter-projprod">Project/Product Management</li>
-                     <li data-filter=".filter-appweb">App/Web</li>
-                     <li data-filter=".filter-uiux">UI/UX</li>
-                     <li data-filter=".filter-socmed">Brand/SMM</li>
-                     <li data-filter=".filter-seo">SEO</li>
+                     <li data-filter=".filter-app">App</li>
+                     <li data-filter=".filter-branding">Branding</li>
                      <li data-filter=".filter-prints">Prints</li>
-                     <li data-filter=".filter-opensource">Open Source</li>
-                     <li data-filter=".filter-artai">Creative AI</li>
-                     <li data-filter=".filter-nft">NFT</li>
                   </ul>
                   <!-- Portfolio > Items > Isotope Animation > Filter // End -->
 
@@ -177,108 +183,121 @@
                   <div class="row gy-4 isotope-container">
 
                      <!-- Portfolio Item // Start -->
-                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-socmed filter-appweb filter-uiux filter-artai filter-seo">
+                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
                         <div class="portfolio-content h-100">
-                           <img src="assets/images/portfolio/thenocturnaldevgypsy-main.jpg" class="img-fluid" alt="">
+                           <img src="assets/images/portfolio/app-1.jpg" class="img-fluid" alt="">
                            <div class="portfolio-info">
-                              <h4>Brand/SMM</h4> <h4>App/Web</h4> <h4>UI/UX</h4> <h4>Creative AI</h4> <h4>SEO</h4>
-                              <p>TheNocturnalDevGypsy</p>
-                              <a href="portfolio-details-thenocturnaldevgypsy.html" title="More Details" class="details-link"><i class="fa-solid fa-circle-info"></i></a>
+                              <h4>App</h4>
+                              <p>A VPN App 1</p>
+                              <a href="portfolio-details.html" title="More Details" class="details-link"><i class="fa-solid fa-circle-info"></i></a>
                            </div>
                         </div>
                      </div>
                      <!-- Portfolio Item // End -->
 
                      <!-- Portfolio Item // Start -->
-                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-appweb filter-uiux filter-artai filter-seo filter-opensource">
+                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-prints">
                         <div class="portfolio-content h-100">
-                           <img src="assets/images/portfolio/nightfall-main.jpg" class="img-fluid" alt="">
+                           <img src="assets/images/portfolio/book-1.jpg" class="img-fluid" alt="">
                            <div class="portfolio-info">
-                              <h4>App/Web</h4> <h4>UI/UX</h4> <h4>Creative AI</h4> <h4>SEO</h4> <h4>Open Source</h4>
-                              <p>Nightfall Bootstrap Template</p>
-                              <a href="portfolio-details-nightfall.html" title="More Details" class="details-link"><i class="fa-solid fa-circle-info"></i></a>
+                              <h4>Prints</h4>
+                              <p>A book cover 1</p>
+                              <a href="portfolio-details.html" title="More Details" class="details-link"><i class="fa-solid fa-circle-info"></i></a>
                            </div>
                         </div>
                      </div>
                      <!-- Portfolio Item // End -->
 
                      <!-- Portfolio Item // Start -->
-                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-appweb filter-uiux filter-artai filter-seo filter-opensource">
+                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
                         <div class="portfolio-content h-100">
-                           <img src="assets/images/portfolio/gypsyshards-main.jpg" class="img-fluid" alt="">
+                           <img src="assets/images/portfolio/brand-1.jpg" class="img-fluid" alt="">
                            <div class="portfolio-info">
-                              <h4>App/Web</h4> <h4>UI/UX</h4> <h4>Creative AI</h4> <h4>SEO</h4> <h4>Open Source</h4>
-                              <p>GypsyShards Bootstrap Templates</p>
-                              <a href="portfolio-details-gypsyshards.html" title="More Details" class="details-link"><i class="fa-solid fa-circle-info"></i></a>
+                              <h4>Branding</h4>
+                              <p>Branding 1</p>
+                              <a href="portfolio-details.html" title="More Details" class="details-link"><i class="fa-solid fa-circle-info"></i></a>
                            </div>
                         </div>
                      </div>
                      <!-- Portfolio Item // End -->
 
                      <!-- Portfolio Item // Start -->
-                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-artai filter-nft">
+                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
                         <div class="portfolio-content h-100">
-                           <img src="assets/images/portfolio/texttoartaitonftcollections-main.jpg" class="img-fluid" alt="">
+                           <img src="assets/images/portfolio/app-2.jpg" class="img-fluid" alt="">
                            <div class="portfolio-info">
-                              <h4>Creative AI</h4> <h4>NFT</h4>
-                              <p>Text to Art AI to NFT Collections</p>
-                              <a href="portfolio-details-text-to-art-ai-to-nft.html" title="More Details" class="details-link"><i class="fa-solid fa-circle-info"></i></a>
+                              <h4>App</h4>
+                              <p>A VPN App 2</p>
+                              <a href="portfolio-details.html" title="More Details" class="details-link"><i class="fa-solid fa-circle-info"></i></a>
                            </div>
                         </div>
                      </div>
                      <!-- Portfolio Item // End -->
 
                      <!-- Portfolio Item // Start -->
-                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-projprod filter-appweb filter-uiux filter-socmed filter-seo filter-prints">
+                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
                         <div class="portfolio-content h-100">
-                           <img src="assets/images/portfolio/dhh-main.jpg" class="img-fluid" alt="">
+                           <img src="assets/images/portfolio/brand-2.jpg" class="img-fluid" alt="">
                            <div class="portfolio-info">
-                              <h4>Project/Product Management</h4> <h4>App/Web</h4> <h4>UI/UX</h4> <h4>Brand/SMM</h4> <h4>SEO</h4> <h4>Prints</h4>
-                              <p>DHH Law Firm, Vietnam</p>
-                              <a href="portfolio-details-dhh.html" title="More Details" class="details-link"><i class="fa-solid fa-circle-info"></i></a>
+                              <h4>Branding</h4>
+                              <p>Branding 2</p>
+                              <a href="portfolio-details.html" title="More Details" class="details-link"><i class="fa-solid fa-circle-info"></i></a>
                            </div>
                         </div>
                      </div>
                      <!-- Portfolio Item // End -->
 
                      <!-- Portfolio Item // Start -->
-                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-projprod filter-socmed filter-seo filter-prints">
+                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-prints">
                         <div class="portfolio-content h-100">
-                           <img src="assets/images/portfolio/365daysofunknown-main.jpg" class="img-fluid" alt="">
+                           <img src="assets/images/portfolio/book-2.jpg" class="img-fluid" alt="">
                            <div class="portfolio-info">
-                              <h4>Project/Product Management</h4> <h4>Brand/SMM</h4> <h4>SEO</h4> <h4>Prints</h4>
-                              <p>365 Days of UNKNOWN, Vietnam</p>
-                              <a href="portfolio-details-365-days-of-unknown.html" title="More Details" class="details-link"><i class="fa-solid fa-circle-info"></i></a>
+                              <h4>Prints</h4>
+                              <p>A book cover 2</p>
+                              <a href="portfolio-details.html" title="More Details" class="details-link"><i class="fa-solid fa-circle-info"></i></a>
                            </div>
                         </div>
                      </div>
                      <!-- Portfolio Item // End -->
 
                      <!-- Portfolio Item // Start -->
-                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-socmed filter-seo filter-prints">
+                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
                         <div class="portfolio-content h-100">
-                           <img src="assets/images/portfolio/oiblinsaigon-main.jpg" class="img-fluid" alt="">
+                           <img src="assets/images/portfolio/brand-3.jpg" class="img-fluid" alt="">
                            <div class="portfolio-info">
-                              <h4>Brand/SMM</h4> <h4>SEO</h4> <h4>Prints</h4>
-                              <p>Ơi! Blin (Блин)! Saigon, Vietnam</p>
-                              <a href="portfolio-details-oi-blin-saigon.html" title="More Details" class="details-link"><i class="fa-solid fa-circle-info"></i></a>
+                              <h4>Branding</h4>
+                              <p>Branding 3</p>
+                              <a href="portfolio-details.html" title="More Details" class="details-link"><i class="fa-solid fa-circle-info"></i></a>
                            </div>
                         </div>
                      </div>
                      <!-- Portfolio Item // End -->
 
-                     <!-- Portfolio Item // Start 
-                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-texttoimage">
+                     <!-- Portfolio Item // Start -->
+                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-prints">
                         <div class="portfolio-content h-100">
-                           <img src="assets/images/portfolio/branding-3.jpg" class="img-fluid" alt="">
+                           <img src="assets/images/portfolio/book-3.jpg" class="img-fluid" alt="">
                            <div class="portfolio-info">
-                              <h4>AI Text to Image</h4>
-                              <p>Name of the item</p>
-                              <a href="portfolio-public-type-item-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                              <h4>Prints</h4>
+                              <p>A book cover 3</p>
+                              <a href="portfolio-details.html" title="More Details" class="details-link"><i class="fa-solid fa-circle-info"></i></a>
                            </div>
                         </div>
                      </div>
-                     Portfolio Item // End -->
+                     <!-- Portfolio Item // End -->
+
+                     <!-- Portfolio Item // Start -->
+                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                        <div class="portfolio-content h-100">
+                           <img src="assets/images/portfolio/app-3.jpg" class="img-fluid" alt="">
+                           <div class="portfolio-info">
+                              <h4>App</h4>
+                              <p>A VPN App 3</p>
+                              <a href="portfolio-details.html" title="More Details" class="details-link"><i class="fa-solid fa-circle-info"></i></a>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- Portfolio Item // End -->
 
                   </div>
                   <!-- Portfolio > Items Container Section // End -->
@@ -296,17 +315,13 @@
       <!-- Footer and SNS Icons // Start -->
       <footer id="footer" class="footer dark-background">
          <div class="container">
-            <h3 class="sitename">TheNocturnalDevGypsy : Porfolio and webspace of Abegail Bautista Torrendon</h3>
-            <p>&copy; 2002 - 2024 | Solving Business Problems with Strategy + Design + Codes | Made with <span class="footer-accent"><i class="fa-solid fa-heart"></i></span> + <span class="footer-accent"><i class="fa-brands fa-bootstrap"></i></span> | Powered by <span class="footer-accent"><i class="fa-brands fa-github"></i></span> <a href="https://github.com/thenocturnaldevgypsy-io/thenocturnaldevgypsy-io.github.io" target="_blank">GitHub Pages</a> | Status : #OpenToWork</p>
+            <h3 class="sitename">Nightfall</h3>
+            <p>&copy; 2024 | <span class="footer-accent"><i class="fa-brands fa-github"></i></span> <a href="https://github.com/thenocturnaldevgypsy-io/nightfall-bootstrap-template-personal" target="_blank">Nightfall : Free Personal Website Theme built with Bootstrap 5.3.3 by TheNocturnalDevGypsy</a> | Made with <span class="footer-accent"><i class="fa-solid fa-heart"></i></span> + <span class="footer-accent"><i class="fa-brands fa-bootstrap"></i></span></p>
             <div class="social-links d-flex justify-content-center">
-               <a href="https://www.linkedin.com/in/abegail-torrendon/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
-               <a href="https://github.com/thenocturnaldevgypsy-io" target="_blank"><i class="fa-brands fa-github"></i></a>
-               <a href="https://www.upwork.com/freelancers/~0135fa830786a3f536?s=1484275220996608000"><i class="fa-brands fa-upwork"></i></a>
-               <a href="https://mastodon.social/@TheNocturnalDevGypsy"><i class="fa-brands fa-mastodon"></i></a>
-               <a href="https://x.com/nocturnalgypsy_"><i class="fa-brands fa-x-twitter"></i></a>
-               <a href="https://www.instagram.com/nocturnal.indigo/"><i class="fa-brands fa-instagram"></i></a>
-               <a href="https://uncut.network/user/4296077072"><i class="fa-solid fa-store"></i></a>
-               <a href="https://ko-fi.com/thenocturnaldevgypsy"><i class="fa-solid fa-hand-holding-heart"></i></a>
+               <a href="https://www.linkedin.com/in/yourusername/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+               <a href="https://github.com/yourusername" target="_blank"><i class="fa-brands fa-github"></i></a>
+               <a href="https://x.com/yourusername"><i class="fa-brands fa-x-twitter"></i></a>
+               <a href="https://www.instagram.com/yourusername/"><i class="fa-brands fa-instagram"></i></a>
             </div>
          </div>
       </footer>

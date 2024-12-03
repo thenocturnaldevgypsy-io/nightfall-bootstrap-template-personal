@@ -1,16 +1,16 @@
-<p align="center"><img src="/md_assets/img-profile.png" alt="Logo" width="130" height="130"></p>
+<p align="center"><img src="md_assets/preview-image.jpg" alt="Logo" width="500"></p>
 <h3 align="center">NightFall</h3>
 <p align="center"><em>Free Personal Website Theme built with Bootstrap 5.3.3 by TheNocturnalDevGypsy</em></p>
 <p align="center"><strong>You like the Repo? Don't forget to 🌟, 👁️, 🔱 and ❤️!</strong></p>
 <p align="center">
    <img src="https://img.shields.io/badge/Purpose-PLAYGROUND-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Purpose-PLAYGROUND">
-   <img src="https://img.shields.io/badge/Version-1.2.2-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Version 1.2.2">
+   <img src="https://img.shields.io/badge/Version-2.0.0-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Version 2.0.0">
    <img src="https://img.shields.io/badge/Lang-HTML%20|%20CSS%20|%20JavaScript-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Lang-HTML|CSS|JavaScript">
    <img src="https://img.shields.io/badge/Framework-Bootstrap-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Framework-Bootstrap">
    <img src="https://img.shields.io/badge/Database-None-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Database-None">
    <img src="https://img.shields.io/badge/Contribute-OPEN-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Contribute-OPEN">
    <img src="https://img.shields.io/badge/License-MIT-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="License MIT">
-   <img src="https://img.shields.io/badge/Last%20Update-20.10.2024-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Last Update 20.10.2024">
+   <img src="https://img.shields.io/badge/Last%20Update-03.12.2024-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Last Update 03.12.2024">
    <a href="https://ko-fi.com/thenocturnaldevgypsy">
       <img src="https://img.shields.io/badge/Support%20me%20via%20Ko--Fi-%2300416a?logo=ko-fi&logoColor=white&color=%2300416a&textColor=white" alt="Support me via Ko-Fi">
    </a>

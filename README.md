@@ -1,4 +1,4 @@
-<p align="center"><img src="/md_assets/img-profile.png" alt="Logo" width="130" height="130"></p>
+<p align="center"><img src="md_assets/preview-image.jpg" alt="Logo" width="500"></p>
 <h3 align="center">NightFall</h3>
 <p align="center"><em>Free Personal Website Theme built with Bootstrap 5.3.3 by TheNocturnalDevGypsy</em></p>
 <p align="center"><strong>You like the Repo? Don't forget to 🌟, 👁️, 🔱 and ❤️!</strong></p>
@@ -10,7 +10,7 @@
    <img src="https://img.shields.io/badge/Database-None-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Database-None">
    <img src="https://img.shields.io/badge/Contribute-OPEN-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Contribute-OPEN">
    <img src="https://img.shields.io/badge/License-MIT-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="License MIT">
-   <img src="https://img.shields.io/badge/Last%20Update-20.10.2024-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Last Update 20.10.2024">
+   <img src="https://img.shields.io/badge/Last%20Update-03.12.2024-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Last Update 03.12.2024">
    <a href="https://ko-fi.com/thenocturnaldevgypsy">
       <img src="https://img.shields.io/badge/Support%20me%20via%20Ko--Fi-%2300416a?logo=ko-fi&logoColor=white&color=%2300416a&textColor=white" alt="Support me via Ko-Fi">
    </a>
@@ -27,7 +27,7 @@
 
 ![SUBSECTION Live URLs](https://custom-icon-badges.demolab.com/badge/-Live%20URLs-24292e?logo=globe&logoColor=white&labelColor=00416a)
 
-- Thru ... : https://
+- Thru Vercel : https://nightfall-eight.vercel.app
 
 ## ![SECTION Build With ❤️ and ...](https://custom-icon-badges.demolab.com/badge/-Build%20With%20❤️%20and%20...-2471AE?logo=tools&logoColor=white&labelColor=2471AE)
 
@@ -56,7 +56,7 @@ phpMyAdmin Version information: 5.1.2
 **Frameworks, Libraries and Tools**
 ```
 - Bootstrap 5.3.3 https://github.com/twbs/bootstrap
-- Google Font: Baloo 2 https://fonts.google.com/specimen/Baloo+2?query=baloo
+- Google Font: REM https://fonts.google.com/specimen/REM?query=rem
 - Bootstrap Icons https://github.com/twbs/icons
 - FontAwesome 6 Icons (Free) https://github.com/FortAwesome/Font-Awesome
 - AOS (Animate on scroll) https://github.com/michalsnik/aos
@@ -75,6 +75,15 @@ phpMyAdmin Version information: 5.1.2
 - [Barnett, Concert, Courtney image. Free for use - Assets by Pexels](https://pixabay.com/photos/barnett-concert-courtney-live-music-2178772/) : `assets/images/testimonials/testimonials-3.jpg`
 - [Beautiful, Fashion, Female image. Free for use - Assets by Pexels](https://pixabay.com/photos/beautiful-fashion-female-girl-2178708/) : `assets/images/testimonials/testimonials-4.jpg`
 - [Black, Black and white, Emotions image. Free for use - Assets by Pexels](https://pixabay.com/photos/black-black-and-white-emotions-2178681/) : `assets/images/testimonials/testimonials-5.jpg`
+- [Cellphone, Smartphone, Vpn image. Free for use - Assets by StefanCoders](https://pixabay.com/photos/cellphone-smartphone-vpn-streaming-5494593/) : `assets/images/portfolio/app-1.jpg`
+- [Vpn, Virtual private network, Public wifi image. Free for use - Assets by StefanCoders](https://pixabay.com/photos/vpn-virtual-private-network-4667364/) : `assets/images/portfolio/app-2.jpg`
+- [Vpn, Personal data, Streaming image. Free for use - Assets by StefanCoders](https://pixabay.com/photos/vpn-personal-data-streaming-unlock-4600767/) : `assets/images/portfolio/app-3.jpg`
+- [Your Soul Is a River by Nikita Gill Book. Free for use - Assets by Thought Catalog](https://www.pexels.com/photo/your-soul-is-a-river-by-nikita-gill-book-904620/) : `assets/images/portfolio/book-1.jpg`
+- [Person Holding A Book. Free for use - Assets by Thought Catalog](https://www.pexels.com/photo/person-holding-a-book-2228556/) : `assets/images/portfolio/book-2.jpg`
+- [Flatlay Photo Of A Book. Free for use - Assets by Thought Catalog](https://www.pexels.com/photo/flatlay-photo-of-a-book-2228562/) : `assets/images/portfolio/book-3.jpg`
+- [Woman On Bed Inside Room. Free for use - Assets by Thought Catalog](https://www.pexels.com/photo/woman-on-bed-inside-room-2228566/) : `assets/images/portfolio/brand-1.jpg`
+- [Cooked Food On A Plate. Free for use - Assets by Thought Catalog](https://www.pexels.com/photo/cooked-food-on-a-plate-2228559/) : `assets/images/portfolio/brand-2.jpg`
+- [Woman Sitting On Window Reading Book. Free for use - Assets by Thought Catalog](https://www.pexels.com/photo/woman-sitting-on-window-reading-book-2228561/) : `assets/images/portfolio/brand-3.jpg`
 
 ## ![SECTION Folders and Files Structure](https://custom-icon-badges.demolab.com/badge/-Folders%20and%20Files%20Structure-2471AE?logo=file-submodule&logoColor=white&labelColor=2471AE)
 
@@ -149,7 +158,7 @@ Footer/
 - **Portfolio**: Portfolio details
    - HTML files: `portfolio.html`, `portfolio-details.html`
 - **Services**: Services offered
-   - HTML files: `services.html`
+   - HTML files: `services-1.html`
 - **Contact**: Hiring, shops and contact details
    - HTML files: `contact.html`
 - **Footer**: Copyrights, Notes and Social Network Details. (except Home (`index.html`))
@@ -163,7 +172,7 @@ Below is the latest updates, go to the [Changelog Listing](CHANGELOG.md) for the
 
 | Version | Date | Commit | Type | Description |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| 2.0.0 | 20.10.2024 | []() for [PR ]() | refactor/perf/chore | - |
+| 2.0.0 | 03.12.2024 | []() for [PR ]() | refactor/perf/chore | - Updated the full template from one page to multi-page template<br>- Rechecking the CSS respositive, added more clearer comments<br>- Removed the old deployments that was linked to my old GitHub account at Vercel and Netlify, redeployed the latest version at Vercel (https://nightfall-eight.vercel.app)<br>- Updated the repo's documentation |
 
 ## ![SECTION Contribute](https://custom-icon-badges.demolab.com/badge/-Contribute-2471AE?logo=code-of-conduct&logoColor=white&labelColor=2471AE)
 Want to contribute? Great! Contributions welcome, but please read the [contribution guidelines](CONTRIBUTING.md) first on how to contribute to the project, including pull request guidelines and community contributions.
